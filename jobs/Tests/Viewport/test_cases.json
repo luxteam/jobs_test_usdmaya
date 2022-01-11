@@ -1,0 +1,15 @@
+[
+    {
+        "case": "MAYA_USD_VIEW_001",
+        "status": "active",
+        "script_info": [
+            "Do not compare",
+            "Global Illumination"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "init_viewport(case)",
+            "save_viewport(case)"
+        ]
+    }
+]

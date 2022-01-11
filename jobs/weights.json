@@ -1,0 +1,12 @@
+{
+    "weights": [
+        {
+            "suite_name": "Smoke",
+            "value": 3299
+        },
+        {
+            "suite_name": "Viewport",
+            "value": 3777
+        }
+    ]
+}
