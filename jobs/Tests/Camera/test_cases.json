@@ -1,0 +1,793 @@
+[
+    {
+        "case": "MAYA_USD_CM_001",
+        "status": "active",
+        "script_info": [
+            "2. Controls - Camera",
+            "Film Gate - 16mm Theatrical"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 0.404')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 0.295')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_002",
+        "status": "active",
+        "script_info": [
+            "Film Gate - Super 16mm"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 0.493')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 0.292')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_003",
+        "status": "active",
+        "script_info": [
+            "Film Gate - 35mm Academy"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 0.864')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 0.630')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_004",
+        "status": "active",
+        "script_info": [
+            "Film Gate - 35mm TV Projection"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 0.816')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 0.612')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_005",
+        "status": "active",
+        "script_info": [
+            "Film Gate - 35mm Full Aperture"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 0.980')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 0.735')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_006",
+        "status": "active",
+        "script_info": [
+            "Film Gate - 35mm 1.85 Projection"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 0.825')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 0.446')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_007",
+        "status": "active",
+        "script_info": [
+            "Film Gate - 35mm Anamorphic"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 0.864')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 0.732')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_008",
+        "status": "active",
+        "script_info": [
+            "Film Gate - 70mm Projection"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 2.066')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 0.906')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_009",
+        "status": "active",
+        "script_info": [
+            "Film Gate - VistaVision"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 1.485')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 0.991')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_010",
+        "status": "active",
+        "script_info": [
+            "Film Gate - Imax"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 2.772')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 2.072')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_011",
+        "status": "active",
+        "script_info": [
+            "Angle of View - 1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.focalLength\" 587.932')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_012",
+        "status": "active",
+        "script_info": [
+            "Angle of View - 75"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.focalLength\" 6.687')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_013",
+        "status": "active",
+        "script_info": [
+            "Angle of View - 157.38"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.focalLength\" 2.5')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_014",
+        "status": "active",
+        "script_info": [
+            "Focal Length - 50"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.focalLength\" 50')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_015",
+        "status": "active",
+        "script_info": [
+            "Focal Length - 100"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.focalLength\" 100')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_016",
+        "status": "active",
+        "script_info": [
+            "Focal Length - 200"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.focalLength\" 200')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_017",
+        "status": "active",
+        "script_info": [
+            "Camera Scale - 0"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.cameraScale\" 0')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_018",
+        "status": "active",
+        "script_info": [
+            "Camera Scale - 0.5"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.cameraScale\" 0.5')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_019",
+        "status": "active",
+        "script_info": [
+            "Camera Aperture(inch) - 0.5, 0.5"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 0.5')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 0.5')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_020",
+        "status": "active",
+        "script_info": [
+            "Camera Aperture(inch) - 1, 1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 1')",
+            "mel.eval('setAttr \"perspShape.verticalFilmAperture\" 1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_021",
+        "status": "active",
+        "script_info": [
+            "Film Aspect - 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 0.094')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_022",
+        "status": "active",
+        "script_info": [
+            "Film Aspect - 1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 0.945')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_023",
+        "status": "active",
+        "script_info": [
+            "Film Aspect - 5"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 4.724')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_024",
+        "status": "active",
+        "script_info": [
+            "Film Aspect - 10"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalFilmAperture\" 9.449')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_025",
+        "status": "active",
+        "script_info": [
+            "Lens Squeeze Ratio - 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.lensSqueezeRatio\" 0.1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_026",
+        "status": "active",
+        "script_info": [
+            "Lens Squeeze Ratio - 0.5"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.lensSqueezeRatio\" 0.5')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_027",
+        "status": "active",
+        "script_info": [
+            "Lens Squeeze Ratio - 1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.lensSqueezeRatio\" 1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_028",
+        "status": "active",
+        "script_info": [
+            "Activate Shake",
+            "Shake - 0.2, 0.2"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.shakeEnabled\" 1')",
+            "mel.eval('setAttr \"perspShape.horizontalShake\" 0.2')",
+            "mel.eval('setAttr \"perspShape.verticalShake\" 0.2')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_029",
+        "status": "active",
+        "script_info": [
+            "Activate Shake",
+            "Shake - 0.2, 0.2",
+            "Activate Shake Overscan Enabled"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.shakeEnabled\" 1')",
+            "mel.eval('setAttr \"perspShape.horizontalShake\" 0.2')",
+            "mel.eval('setAttr \"perspShape.verticalShake\" 0.2')",
+            "mel.eval('setAttr \"perspShape.shakeOverscanEnabled\" 1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_030",
+        "status": "active",
+        "script_info": [
+            "Pre Scale - 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.preScale\" 0.1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_031",
+        "status": "active",
+        "script_info": [
+            "Pre Scale - 0.5"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.preScale\" 0.5')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_032",
+        "status": "active",
+        "script_info": [
+            "Pre Scale - 1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.preScale\" 1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_033",
+        "status": "active",
+        "script_info": [
+            "Film Translate - 0.1, 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmTranslateH\" 0.1')",
+            "mel.eval('setAttr \"perspShape.filmTranslateV\" 0.1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_034",
+        "status": "active",
+        "script_info": [
+            "Film Roll Pivot - 0.1, 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.horizontalRollPivot\" 0.1')",
+            "mel.eval('setAttr \"perspShape.verticalRollPivot\" 0.1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_035",
+        "status": "active",
+        "script_info": [
+            "Film Roll Value - 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollValue\" 0.1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_036",
+        "status": "active",
+        "script_info": [
+            "Film Roll Value - 1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollValue\" 1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_037",
+        "status": "active",
+        "script_info": [
+            "Film Roll Value - 90"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollValue\" 90')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_038",
+        "status": "active",
+        "script_info": [
+            "Film Roll Value - 180"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollValue\" 180')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_039",
+        "status": "active",
+        "script_info": [
+            "Post Scale - 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.postScale\" 0.1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_040",
+        "status": "active",
+        "script_info": [
+            "Post Scale - 0.5"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.postScale\" 0.5')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_041",
+        "status": "active",
+        "script_info": [
+            "Post Scale - 1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.postScale\" 1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_042",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Pre Scale - 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.preScale\" 0.1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_043",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Pre Scale - 0.5"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.preScale\" 0.5')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_044",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Pre Scale - 1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.preScale\" 1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_045",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Film Translate - 0.1, 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.filmTranslateH\" 0.1')",
+            "mel.eval('setAttr \"perspShape.filmTranslateV\" 0.1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_046",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Film Roll Pivot - 0.1, 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.horizontalRollPivot\" 0.1')",
+            "mel.eval('setAttr \"perspShape.verticalRollPivot\" 0.1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_047",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Film Roll Value - 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.filmRollValue\" 0.1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_048",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Film Roll Value - 1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.filmRollValue\" 1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_049",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Film Roll Value - 90"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.filmRollValue\" 90')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_050",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Film Roll Value - 180"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.filmRollValue\" 180')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_051",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Post Scale - 0.1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.postScale\" 0.1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_052",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Post Scale - 0.5"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.postScale\" 0.5')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_CM_053",
+        "status": "active",
+        "script_info": [
+            "Translate-Rotate",
+            "Post Scale - 1"
+        ],
+        "scene": "CarClipperUSD.ma",
+        "functions": [
+            "init_viewport(case)",
+            "mel.eval('setAttr \"perspShape.filmRollOrder\" 1')",
+            "mel.eval('setAttr \"perspShape.postScale\" 1')",
+            "save_viewport(case)",
+            "reset_attributes()"
+        ]
+    }
+]

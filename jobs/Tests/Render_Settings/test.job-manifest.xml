@@ -7,7 +7,7 @@
         <argument>--tool "{Tool}"</argument>
         <argument>--render_device "{RenderDevice}"</argument>
         <argument>--output "{OutputDir}"</argument>
-        <argument>--testType Smoke</argument>
+        <argument>--testType Render_Settings</argument>
         <argument>--batchRender false</argument>
         <argument>--pass_limit {PassLimit}</argument>
         <argument>--resolution_x {rx}</argument>

@@ -1,0 +1,54 @@
+[
+    {
+        "case": "MAYA_USD_ANM_001",
+        "status": "active",
+        "script_info": [
+            "Frame 10"
+        ],
+        "scene": "animation1.ma",
+        "functions": [
+            "init_viewport(case)",
+            "cmds.currentTime(10)",
+            "save_viewport(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_ANM_002",
+        "status": "active",
+        "script_info": [
+            "Frame 50"
+        ],
+        "scene": "animation1.ma",
+        "functions": [
+            "init_viewport(case)",
+            "cmds.currentTime(50)",
+            "save_viewport(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_ANM_003",
+        "status": "active",
+        "script_info": [
+            "Frame 10"
+        ],
+        "scene": "animation2.ma",
+        "functions": [
+            "init_viewport(case)",
+            "cmds.currentTime(10)",
+            "save_viewport(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_ANM_004",
+        "status": "active",
+        "script_info": [
+            "Frame 50"
+        ],
+        "scene": "animation2.ma",
+        "functions": [
+            "init_viewport(case)",
+            "cmds.currentTime(50)",
+            "save_viewport(case)"
+        ]
+    }
+]

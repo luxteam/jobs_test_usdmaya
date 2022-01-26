@@ -1,0 +1,37 @@
+def init_viewport(case):
+    mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')
+    rpr_render(case)
+
+def save_viewport(case):
+    for i in range(0, 100):
+        cmds.refresh(currentView=True, fe='png', fn=WORK_DIR+'/Color/'+case['case']+'.jpg')
+        
+def reset_attributes():
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_ambientOcclusion_mtohns_radius\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_antialiasing\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_linewidthNormal\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_normalThreshold\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_linewidthPrimId\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_linewidthMaterialId\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_enable\" 1')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_iterStep\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_minIter\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_maxSamples\" 50')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_adaptiveSampling_mtohns_minSamples\" 64')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepth\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthDiffuse\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthGlossy\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthRefraction\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthShadow\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_raycastEpsilon\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_radianceClamping\" 0')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth\" 1')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution\" 1')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_exposureTime\" 0.5')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_sensitivity\" 0.5')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_fstop\" 0.5')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_gamma\" 0.5')
+    mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_alpha_mtohns_enable\" 1')

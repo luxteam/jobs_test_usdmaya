@@ -3,12 +3,11 @@
 
     <outpath value="{OutputDir}"/>
 
-    <execute command='python "{CWD}/Scripts/simpleRender.py"' timeout="4200">
+    <execute command='python "{CWD}/Scripts/simpleRender.py"' timeout="3600">
         <argument>--tool "{Tool}"</argument>
         <argument>--render_device "{RenderDevice}"</argument>
         <argument>--output "{OutputDir}"</argument>
-        <argument>--testType Smoke</argument>
-        <argument>--batchRender false</argument>
+        <argument>--testType Camera</argument>
         <argument>--pass_limit {PassLimit}</argument>
         <argument>--resolution_x {rx}</argument>
         <argument>--resolution_y {ry}</argument>
@@ -19,7 +18,7 @@
         <argument>--retries {retries}</argument>
         <argument>--update_refs "{UpdateRefs}"</argument>
         <argument>--engine "{engine}"</argument>
-        <argument>--stucking_time 900</argument>
+        <argument>--stucking_time 360</argument>
     </execute>
 
     <execute command='python "{CommonDir}/scripts/makeReport.py"'>
