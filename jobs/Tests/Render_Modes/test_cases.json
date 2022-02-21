@@ -5,11 +5,10 @@
         "script_info": [
             "Render mode Global illumination"
         ],
-        "scene": "Mclaren.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderMode\" 0')",
-            "save_viewport(case)"
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 0)",
+            "rpr_render(case)"
         ]
     },
     {
@@ -18,11 +17,10 @@
         "script_info": [
             "Render mode Direct illumination"
         ],
-        "scene": "Mclaren.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderMode\" 1')",
-            "save_viewport(case)"
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 1)",
+            "rpr_render(case)"
         ]
     },
     {
@@ -31,11 +29,10 @@
         "script_info": [
             "Render mode Wireframe"
         ],
-        "scene": "Mclaren.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderMode\" 2')",
-            "save_viewport(case)"
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 2)",
+            "rpr_render(case)"
         ]
     },
     {
@@ -44,11 +41,10 @@
         "script_info": [
             "Render mode Material index"
         ],
-        "scene": "Mclaren.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderMode\" 3')",
-            "save_viewport(case)"
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 3)",
+            "rpr_render(case)"
         ]
     },
     {
@@ -57,11 +53,10 @@
         "script_info": [
             "Render mode Position"
         ],
-        "scene": "Mclaren.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderMode\" 4')",
-            "save_viewport(case)"
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 4)",
+            "rpr_render(case)"
         ]
     },
     {
@@ -70,11 +65,10 @@
         "script_info": [
             "Render mode Normal"
         ],
-        "scene": "Mclaren.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderMode\" 5')",
-            "save_viewport(case)"
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 5)",
+            "rpr_render(case)"
         ]
     },
     {
@@ -83,11 +77,10 @@
         "script_info": [
             "Render mode Texcoord"
         ],
-        "scene": "Mclaren.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderMode\" 6')",
-            "save_viewport(case)"
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 6)",
+            "rpr_render(case)"
         ]
     },
     {
@@ -96,11 +89,10 @@
         "script_info": [
             "Render mode Ambient occlusion"
         ],
-        "scene": "Mclaren.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderMode\" 7')",
-            "save_viewport(case)"
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 7)",
+            "rpr_render(case)"
         ]
     },
     {
@@ -109,11 +101,10 @@
         "script_info": [
             "Render mode Diffuse"
         ],
-        "scene": "Mclaren.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderMode\" 8')",
-            "save_viewport(case)"
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 8)",
+            "rpr_render(case)"
         ]
     },
     {
@@ -122,11 +113,10 @@
         "script_info": [
             "Render mode Contour"
         ],
-        "scene": "Mclaren.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderMode\" 9')",
-            "save_viewport(case)"
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 9)",
+            "rpr_render(case)"
         ]
     }
 ]

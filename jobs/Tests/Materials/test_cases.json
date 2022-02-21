@@ -3,312 +3,44 @@
         "case": "MAYA_USD_MT_001",
         "status": "active",
         "script_info": [
-            "Quality Low"
+            ""
         ],
-        "scene": "Blin material.ma",
+        "scene": "Blin_Material.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 0')",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     },
     {
         "case": "MAYA_USD_MT_002",
         "status": "active",
         "script_info": [
-            "Quality Medium"
+            ""
         ],
-        "scene": "Blin material.ma",
+        "scene": "Phong.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 1')",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     },
     {
         "case": "MAYA_USD_MT_003",
         "status": "active",
         "script_info": [
-            "Quality High"
+            ""
         ],
-        "scene": "Blin material.ma",
+        "scene": "Lambert_Material.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 2')",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     },
     {
         "case": "MAYA_USD_MT_004",
         "status": "active",
         "script_info": [
-            "Quality Full"
-        ],
-        "scene": "Blin material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 4')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_005",
-        "status": "active",
-        "script_info": [
-            "Quality HybridPro"
-        ],
-        "scene": "Blin material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 3')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_006",
-        "status": "active",
-        "script_info": [
-            "Quality Northstar"
-        ],
-        "scene": "Blin material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 5')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_007",
-        "status": "active",
-        "script_info": [
-            "Quality Low"
-        ],
-        "scene": "Phong.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 0')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_008",
-        "status": "active",
-        "script_info": [
-            "Quality Medium"
-        ],
-        "scene": "Phong.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 1')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_009",
-        "status": "active",
-        "script_info": [
-            "Quality High"
-        ],
-        "scene": "Phong.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 2')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_010",
-        "status": "active",
-        "script_info": [
-            "Quality Full"
-        ],
-        "scene": "Phong.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 4')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_011",
-        "status": "active",
-        "script_info": [
-            "Quality HybridPro"
-        ],
-        "scene": "Phong.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 3')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_012",
-        "status": "active",
-        "script_info": [
-            "Quality Northstar"
-        ],
-        "scene": "Phong.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 5')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_013",
-        "status": "active",
-        "script_info": [
-            "Quality Low"
-        ],
-        "scene": "Lambert_Material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 0')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_014",
-        "status": "active",
-        "script_info": [
-            "Quality Medium"
-        ],
-        "scene": "Lambert_Material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 1')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_015",
-        "status": "active",
-        "script_info": [
-            "Quality High"
-        ],
-        "scene": "Lambert_Material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 2')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_016",
-        "status": "active",
-        "script_info": [
-            "Quality Full"
-        ],
-        "scene": "Lambert_Material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 4')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_017",
-        "status": "active",
-        "script_info": [
-            "Quality HybridPro"
-        ],
-        "scene": "Lambert_Material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 3')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_018",
-        "status": "active",
-        "script_info": [
-            "Quality Northstar"
-        ],
-        "scene": "Lambert_Material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 5')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_019",
-        "status": "active",
-        "script_info": [
-            "Quality Low"
+            ""
         ],
         "scene": "USD_Material.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 0')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_020",
-        "status": "active",
-        "script_info": [
-            "Quality Medium"
-        ],
-        "scene": "USD_Material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 1')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_021",
-        "status": "active",
-        "script_info": [
-            "Quality High"
-        ],
-        "scene": "USD_Material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 2')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_022",
-        "status": "active",
-        "script_info": [
-            "Quality Full"
-        ],
-        "scene": "USD_Material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 4')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_023",
-        "status": "active",
-        "script_info": [
-            "Quality HybridPro"
-        ],
-        "scene": "USD_Material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 3')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_MT_024",
-        "status": "active",
-        "script_info": [
-            "Quality Northstar"
-        ],
-        "scene": "USD_Material.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 5')",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     }
 ]

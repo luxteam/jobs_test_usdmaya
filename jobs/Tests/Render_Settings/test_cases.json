@@ -5,11 +5,10 @@
         "script_info": [
             "Ambient Radius 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_ambientOcclusion_mtohns_radius\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_ambientOcclusion_mtohns_radius', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -19,11 +18,10 @@
         "script_info": [
             "Ambient Radius 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_ambientOcclusion_mtohns_radius\" 0.5')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_ambientOcclusion_mtohns_radius', 0.5)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -33,11 +31,10 @@
         "script_info": [
             "Ambient Radius 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_ambientOcclusion_mtohns_radius\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_ambientOcclusion_mtohns_radius', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -47,11 +44,10 @@
         "script_info": [
             "Antialiasing 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_antialiasing\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_antialiasing', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -61,11 +57,10 @@
         "script_info": [
             "Antialiasing 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_antialiasing\" 0.5')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_antialiasing', 0.5)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -75,11 +70,10 @@
         "script_info": [
             "Antialiasing 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_antialiasing\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_antialiasing', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -89,11 +83,10 @@
         "script_info": [
             "Linewidth normal 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_linewidthNormal\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthNormal', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -103,11 +96,10 @@
         "script_info": [
             "Linewidth normal 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_linewidthNormal\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthNormal', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -117,11 +109,10 @@
         "script_info": [
             "Normal threshold 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_normalThreshold\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_normalThreshold', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -131,11 +122,10 @@
         "script_info": [
             "Normal threshold 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_normalThreshold\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_normalThreshold', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -145,11 +135,10 @@
         "script_info": [
             "Linewidth primitive id 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_linewidthPrimId\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthPrimId', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -159,11 +148,10 @@
         "script_info": [
             "Linewidth primitive id 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_linewidthPrimId\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthPrimId', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -173,11 +161,10 @@
         "script_info": [
             "Linewidth Material id 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_linewidthMaterialId\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthMaterialId', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -187,11 +174,10 @@
         "script_info": [
             "Linewidth Material id 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_contour_mtohns_linewidthMaterialId\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthMaterialId', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -202,12 +188,11 @@
             "Denoiser enable",
             "Denoiser iteration step 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_iterStep\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_iterStep', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -218,12 +203,11 @@
             "Denoiser enable",
             "Denoiser iteration step 32"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_iterStep\" 32')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_iterStep', 32)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -234,12 +218,11 @@
             "Denoiser enable",
             "Denoiser min iteration 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_minIter\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_minIter', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -250,12 +233,11 @@
             "Denoiser enable",
             "Denoiser min iteration 4"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_minIter\" 4')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_minIter', 4)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -265,11 +247,10 @@
         "script_info": [
             "Denoiser disable"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_denoising_mtohns_enable\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_enable', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -279,11 +260,10 @@
         "script_info": [
             "Max samples 50"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_maxSamples\" 50')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_maxSamples', 50)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -293,11 +273,10 @@
         "script_info": [
             "Max samples 1000"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_maxSamples\" 1000')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_maxSamples', 1000)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -307,11 +286,10 @@
         "script_info": [
             "Min samples 64"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_adaptiveSampling_mtohns_minSamples\" 64')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_adaptiveSampling_mtohns_minSamples', 64)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -321,11 +299,10 @@
         "script_info": [
             "Min samples 32"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_adaptiveSampling_mtohns_minSamples\" 32')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_adaptiveSampling_mtohns_minSamples', 32)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -335,11 +312,10 @@
         "script_info": [
             "Noise threshold 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -349,11 +325,10 @@
         "script_info": [
             "Noise threshold 0.05"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold\" 0.05')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 0.05)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -363,11 +338,10 @@
         "script_info": [
             "Noise threshold 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -377,11 +351,10 @@
         "script_info": [
             "Max ray depth 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepth\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepth', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -391,11 +364,10 @@
         "script_info": [
             "Max ray depth 3"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepth\" 3')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepth', 3)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -405,11 +377,10 @@
         "script_info": [
             "Max ray depth 50"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepth\" 50')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepth', 50)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -419,11 +390,10 @@
         "script_info": [
             "Diffuse ray depth 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthDiffuse\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthDiffuse', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -433,11 +403,10 @@
         "script_info": [
             "Diffuse ray depth 3"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthDiffuse\" 3')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthDiffuse', 3)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -447,11 +416,10 @@
         "script_info": [
             "Diffuse ray depth 50"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthDiffuse\" 50')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthDiffuse', 50)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -461,11 +429,10 @@
         "script_info": [
             "Glossy ray depth 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthGlossy\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossy', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -475,11 +442,10 @@
         "script_info": [
             "Glossy ray depth 3"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthGlossy\" 3')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossy', 3)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -489,11 +455,10 @@
         "script_info": [
             "Glossy ray depth 50"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthGlossy\" 50')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossy', 50)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -503,11 +468,10 @@
         "script_info": [
             "Refraction ray depth 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthRefraction\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthRefraction', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -517,11 +481,10 @@
         "script_info": [
             "Refraction ray depth 3"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthRefraction\" 3')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthRefraction', 3)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -531,11 +494,10 @@
         "script_info": [
             "Refraction ray depth 50"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthRefraction\" 50')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthRefraction', 50)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -545,11 +507,10 @@
         "script_info": [
             "Glossy refraction ray depth 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -559,11 +520,10 @@
         "script_info": [
             "Glossy refraction ray depth 3"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction\" 3')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 3)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -573,11 +533,10 @@
         "script_info": [
             "Glossy refraction ray depth 50"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction\" 50')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 50)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -587,11 +546,10 @@
         "script_info": [
             "Shadow ray depth 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthShadow\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthShadow', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -601,11 +559,10 @@
         "script_info": [
             "Shadow ray depth 3"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthShadow\" 3')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthShadow', 3)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -615,11 +572,10 @@
         "script_info": [
             "Shadow ray depth 50"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_rayDepthShadow\" 50')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthShadow', 50)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -629,11 +585,10 @@
         "script_info": [
             "Ray epsilon 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_raycastEpsilon\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_raycastEpsilon', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -643,11 +598,10 @@
         "script_info": [
             "Ray epsilon 0.002"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_raycastEpsilon\" 0.002')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_raycastEpsilon', 0.002)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -657,11 +611,10 @@
         "script_info": [
             "Ray epsilon 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_raycastEpsilon\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_raycastEpsilon', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -671,11 +624,10 @@
         "script_info": [
             "Max radiance 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_radianceClamping\" 0')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_radianceClamping', 0)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -685,11 +637,10 @@
         "script_info": [
             "Max radiance 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_radianceClamping\" 0.5')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_radianceClamping', 0.5)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -699,11 +650,10 @@
         "script_info": [
             "Max radiance 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_radianceClamping\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_radianceClamping', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -713,11 +663,10 @@
         "script_info": [
             "Interactive max ray depth 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -727,11 +676,10 @@
         "script_info": [
             "Interactive max ray depth 2"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth\" 2')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 2)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -741,11 +689,10 @@
         "script_info": [
             "Interactive max ray depth 5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth\" 5')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 5)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -755,11 +702,10 @@
         "script_info": [
             "Active resolution downscale 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -769,11 +715,10 @@
         "script_info": [
             "Active resolution downscale 2"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution\" 2')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 2)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -783,11 +728,10 @@
         "script_info": [
             "Active resolution downscale 3"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution\" 3')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 3)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -798,12 +742,11 @@
             "Enabled tonemapping",
             "Film exposure 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_exposureTime\" 0.5')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_exposureTime', 0.5)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -814,12 +757,11 @@
             "Enabled tonemapping",
             "Film exposure 1.3"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_exposureTime\" 1.3')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_exposureTime', 1.3)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -830,12 +772,11 @@
             "Enabled tonemapping",
             "Film exposure 2"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_exposureTime\" 2')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_exposureTime', 2)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -846,12 +787,11 @@
             "Enabled tonemapping",
             "Film sensitivity 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_sensitivity\" 0.5')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_sensitivity', 0.5)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -862,12 +802,11 @@
             "Enabled tonemapping",
             "Film sensitivity 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_sensitivity\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_sensitivity', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -878,12 +817,11 @@
             "Enabled tonemapping",
             "Film sensitivity 2"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_sensitivity\" 2')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_sensitivity', 2)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -894,12 +832,11 @@
             "Enabled tonemapping",
             "Fstop 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_fstop\" 0.5')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_fstop', 0.5)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -910,12 +847,11 @@
             "Enabled tonemapping",
             "Fstop 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_fstop\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_fstop', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -926,12 +862,11 @@
             "Enabled tonemapping",
             "Fstop 2"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_fstop\" 2')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_fstop', 2)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -942,12 +877,11 @@
             "Enabled tonemapping",
             "Tone mapping gamma 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_gamma\" 0.5')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_gamma', 0.5)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -958,12 +892,11 @@
             "Enabled tonemapping",
             "Tone mapping gamma 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_gamma\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_gamma', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -974,12 +907,11 @@
             "Enabled tonemapping",
             "Tone mapping gamma 2"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_gamma\" 2')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_gamma', 2)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -990,12 +922,11 @@
             "Enabled tonemapping",
             "Enabled color alpha"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_alpha_mtohns_enable\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_alpha_mtohns_enable', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     },
@@ -1005,11 +936,10 @@
         "script_info": [
             "Enabled tonemapping"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_tonemapping_mtohns_enable\" 1')",
-            "save_viewport(case)",
+            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "rpr_render(case)",
             "reset_attributes()"
         ]
     }

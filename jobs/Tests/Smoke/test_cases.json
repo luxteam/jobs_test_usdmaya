@@ -3,312 +3,44 @@
         "case": "MAYA_USD_SM_001",
         "status": "active",
         "script_info": [
-            "Quality Low"
+            "Quality Northstar"
         ],
         "scene": "CarClipperUSD.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 0')",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     },
     {
         "case": "MAYA_USD_SM_002",
         "status": "active",
         "script_info": [
-            "Quality Medium"
+            "Quality Northstar"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Jet.mb",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 1')",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     },
     {
         "case": "MAYA_USD_SM_003",
         "status": "active",
         "script_info": [
-            "Quality High"
+            "Quality Northstar"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 2')",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     },
     {
         "case": "MAYA_USD_SM_004",
         "status": "active",
         "script_info": [
-            "Quality Full"
-        ],
-        "scene": "CarClipperUSD.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 4')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_005",
-        "status": "active",
-        "script_info": [
-            "Quality HybridPro"
-        ],
-        "scene": "CarClipperUSD.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 3')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_006",
-        "status": "active",
-        "script_info": [
-            "Quality Northstar"
-        ],
-        "scene": "CarClipperUSD.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 5')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_007",
-        "status": "active",
-        "script_info": [
-            "Quality Low"
-        ],
-        "scene": "Jet.mb",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 0')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_008",
-        "status": "active",
-        "script_info": [
-            "Quality Medium"
-        ],
-        "scene": "Jet.mb",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 1')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_009",
-        "status": "active",
-        "script_info": [
-            "Quality High"
-        ],
-        "scene": "Jet.mb",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 2')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_010",
-        "status": "active",
-        "script_info": [
-            "Quality Full"
-        ],
-        "scene": "Jet.mb",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 4')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_011",
-        "status": "active",
-        "script_info": [
-            "Quality HybridPro"
-        ],
-        "scene": "Jet.mb",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 3')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_012",
-        "status": "active",
-        "script_info": [
-            "Quality Northstar"
-        ],
-        "scene": "Jet.mb",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 5')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_013",
-        "status": "active",
-        "script_info": [
-            "Quality Low"
-        ],
-        "scene": "Kitchen.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 0')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_014",
-        "status": "active",
-        "script_info": [
-            "Quality Medium"
-        ],
-        "scene": "Kitchen.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 1')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_015",
-        "status": "active",
-        "script_info": [
-            "Quality High"
-        ],
-        "scene": "Kitchen.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 2')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_016",
-        "status": "active",
-        "script_info": [
-            "Quality Full"
-        ],
-        "scene": "Kitchen.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 4')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_017",
-        "status": "active",
-        "script_info": [
-            "Quality HybridPro"
-        ],
-        "scene": "Kitchen.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 3')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_018",
-        "status": "active",
-        "script_info": [
-            "Quality Northstar"
-        ],
-        "scene": "Kitchen.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 5')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_019",
-        "status": "active",
-        "script_info": [
-            "Quality Low"
-        ],
-        "scene": "Mclaren.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 0')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_020",
-        "status": "active",
-        "script_info": [
-            "Quality Medium"
-        ],
-        "scene": "Mclaren.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 1')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_021",
-        "status": "active",
-        "script_info": [
-            "Quality High"
-        ],
-        "scene": "Mclaren.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 2')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_022",
-        "status": "active",
-        "script_info": [
-            "Quality Full"
-        ],
-        "scene": "Mclaren.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 4')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_023",
-        "status": "active",
-        "script_info": [
-            "Quality HybridPro"
-        ],
-        "scene": "Mclaren.ma",
-        "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 3')",
-            "save_viewport(case)"
-        ]
-    },
-    {
-        "case": "MAYA_USD_SM_024",
-        "status": "active",
-        "script_info": [
             "Quality Northstar"
         ],
         "scene": "Mclaren.ma",
         "functions": [
-            "init_viewport(case)",
-            "mel.eval('setAttr \"defaultRenderGlobals.HdRprPlugin__rpr_mtohns_core_mtohns_renderQuality\" 5')",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     }
 ]

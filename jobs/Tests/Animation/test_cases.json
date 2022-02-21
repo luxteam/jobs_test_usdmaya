@@ -7,9 +7,8 @@
         ],
         "scene": "animation1.ma",
         "functions": [
-            "init_viewport(case)",
             "cmds.currentTime(10)",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     },
     {
@@ -20,9 +19,8 @@
         ],
         "scene": "animation1.ma",
         "functions": [
-            "init_viewport(case)",
             "cmds.currentTime(50)",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     },
     {
@@ -33,9 +31,8 @@
         ],
         "scene": "animation2.ma",
         "functions": [
-            "init_viewport(case)",
             "cmds.currentTime(10)",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     },
     {
@@ -46,9 +43,8 @@
         ],
         "scene": "animation2.ma",
         "functions": [
-            "init_viewport(case)",
             "cmds.currentTime(50)",
-            "save_viewport(case)"
+            "rpr_render(case)"
         ]
     }
 ]
