@@ -7,6 +7,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
+            "reset_attributes()",
             "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_ambientOcclusion_mtohns_radius', 0)",
             "rpr_render(case)",
             "reset_attributes()"
