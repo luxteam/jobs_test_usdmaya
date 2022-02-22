@@ -6,7 +6,7 @@
             "2. Controls - Camera",
             "Film Gate - 16mm Theatrical"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 0.404)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 0.295)",
@@ -20,7 +20,7 @@
         "script_info": [
             "Film Gate - Super 16mm"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 0.493)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 0.292)",
@@ -34,7 +34,7 @@
         "script_info": [
             "Film Gate - 35mm Academy"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 0.864)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 0.630)",
@@ -48,7 +48,7 @@
         "script_info": [
             "Film Gate - 35mm TV Projection"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 0.816)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 0.612)",
@@ -62,7 +62,7 @@
         "script_info": [
             "Film Gate - 35mm Full Aperture"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 0.980)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 0.735)",
@@ -76,7 +76,7 @@
         "script_info": [
             "Film Gate - 35mm 1.85 Projection"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 0.825)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 0.446)",
@@ -90,7 +90,7 @@
         "script_info": [
             "Film Gate - 35mm Anamorphic"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 0.864)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 0.732)",
@@ -104,7 +104,7 @@
         "script_info": [
             "Film Gate - 70mm Projection"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 2.066)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 0.906)",
@@ -118,7 +118,7 @@
         "script_info": [
             "Film Gate - VistaVision"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 1.485)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 0.991)",
@@ -132,7 +132,7 @@
         "script_info": [
             "Film Gate - Imax"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 2.772)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 2.072)",
@@ -146,7 +146,7 @@
         "script_info": [
             "Angle of View - 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.focalLength', 587.932)",
             "rpr_render(case)",
@@ -159,7 +159,7 @@
         "script_info": [
             "Angle of View - 75"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.focalLength', 6.687)",
             "rpr_render(case)",
@@ -172,7 +172,7 @@
         "script_info": [
             "Angle of View - 157.38"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.focalLength', 2.5)",
             "rpr_render(case)",
@@ -185,7 +185,7 @@
         "script_info": [
             "Focal Length - 50"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.focalLength', 50)",
             "rpr_render(case)",
@@ -198,7 +198,7 @@
         "script_info": [
             "Focal Length - 100"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.focalLength', 100)",
             "rpr_render(case)",
@@ -211,7 +211,7 @@
         "script_info": [
             "Focal Length - 200"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.focalLength', 200)",
             "rpr_render(case)",
@@ -224,7 +224,7 @@
         "script_info": [
             "Camera Scale - 0"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.cameraScale', 0)",
             "rpr_render(case)",
@@ -237,7 +237,7 @@
         "script_info": [
             "Camera Scale - 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.cameraScale', 0.5)",
             "rpr_render(case)",
@@ -250,7 +250,7 @@
         "script_info": [
             "Camera Aperture(inch) - 0.5, 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 0.5)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 0.5)",
@@ -264,7 +264,7 @@
         "script_info": [
             "Camera Aperture(inch) - 1, 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 1)",
             "cmds.setAttr('perspShape.verticalFilmAperture', 1)",
@@ -278,7 +278,7 @@
         "script_info": [
             "Film Aspect - 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 0.094)",
             "rpr_render(case)",
@@ -291,7 +291,7 @@
         "script_info": [
             "Film Aspect - 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 0.945)",
             "rpr_render(case)",
@@ -304,7 +304,7 @@
         "script_info": [
             "Film Aspect - 5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 4.724)",
             "rpr_render(case)",
@@ -317,7 +317,7 @@
         "script_info": [
             "Film Aspect - 10"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalFilmAperture', 9.449)",
             "rpr_render(case)",
@@ -330,7 +330,7 @@
         "script_info": [
             "Lens Squeeze Ratio - 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.lensSqueezeRatio', 0.1)",
             "rpr_render(case)",
@@ -343,7 +343,7 @@
         "script_info": [
             "Lens Squeeze Ratio - 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.lensSqueezeRatio', 0.5)",
             "rpr_render(case)",
@@ -356,7 +356,7 @@
         "script_info": [
             "Lens Squeeze Ratio - 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.lensSqueezeRatio', 1)",
             "rpr_render(case)",
@@ -370,7 +370,7 @@
             "Activate Shake",
             "Shake - 0.2, 0.2"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.shakeEnabled', 1)",
             "cmds.setAttr('perspShape.horizontalShake', 0.2)",
@@ -387,7 +387,7 @@
             "Shake - 0.2, 0.2",
             "Activate Shake Overscan Enabled"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.shakeEnabled', 1)",
             "cmds.setAttr('perspShape.horizontalShake', 0.2)",
@@ -403,7 +403,7 @@
         "script_info": [
             "Pre Scale - 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.preScale', 0.1)",
             "rpr_render(case)",
@@ -416,7 +416,7 @@
         "script_info": [
             "Pre Scale - 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.preScale', 0.5)",
             "rpr_render(case)",
@@ -429,7 +429,7 @@
         "script_info": [
             "Pre Scale - 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.preScale', 1)",
             "rpr_render(case)",
@@ -442,7 +442,7 @@
         "script_info": [
             "Film Translate - 0.1, 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmTranslateH', 0.1)",
             "cmds.setAttr('perspShape.filmTranslateV', 0.1)",
@@ -456,7 +456,7 @@
         "script_info": [
             "Film Roll Pivot - 0.1, 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.horizontalRollPivot', 0.1)",
             "cmds.setAttr('perspShape.verticalRollPivot', 0.1)",
@@ -470,7 +470,7 @@
         "script_info": [
             "Film Roll Value - 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollValue', 0.1)",
             "rpr_render(case)",
@@ -483,7 +483,7 @@
         "script_info": [
             "Film Roll Value - 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollValue', 1)",
             "rpr_render(case)",
@@ -496,7 +496,7 @@
         "script_info": [
             "Film Roll Value - 90"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollValue', 90)",
             "rpr_render(case)",
@@ -509,7 +509,7 @@
         "script_info": [
             "Film Roll Value - 180"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollValue', 180)",
             "rpr_render(case)",
@@ -522,7 +522,7 @@
         "script_info": [
             "Post Scale - 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.postScale', 0.1)",
             "rpr_render(case)",
@@ -535,7 +535,7 @@
         "script_info": [
             "Post Scale - 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.postScale', 0.5)",
             "rpr_render(case)",
@@ -548,7 +548,7 @@
         "script_info": [
             "Post Scale - 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.postScale', 1)",
             "rpr_render(case)",
@@ -562,7 +562,7 @@
             "Translate-Rotate",
             "Pre Scale - 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.preScale', 0.1)",
@@ -577,7 +577,7 @@
             "Translate-Rotate",
             "Pre Scale - 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.preScale', 0.5)",
@@ -592,7 +592,7 @@
             "Translate-Rotate",
             "Pre Scale - 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.preScale', 1)",
@@ -607,7 +607,7 @@
             "Translate-Rotate",
             "Film Translate - 0.1, 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.filmTranslateH', 0.1)",
@@ -623,7 +623,7 @@
             "Translate-Rotate",
             "Film Roll Pivot - 0.1, 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.horizontalRollPivot', 0.1)",
@@ -639,7 +639,7 @@
             "Translate-Rotate",
             "Film Roll Value - 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.filmRollValue', 0.1)",
@@ -654,7 +654,7 @@
             "Translate-Rotate",
             "Film Roll Value - 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.filmRollValue', 1)",
@@ -669,7 +669,7 @@
             "Translate-Rotate",
             "Film Roll Value - 90"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.filmRollValue', 90)",
@@ -684,7 +684,7 @@
             "Translate-Rotate",
             "Film Roll Value - 180"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.filmRollValue', 180)",
@@ -699,7 +699,7 @@
             "Translate-Rotate",
             "Post Scale - 0.1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.postScale', 0.1)",
@@ -714,7 +714,7 @@
             "Translate-Rotate",
             "Post Scale - 0.5"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.postScale', 0.5)",
@@ -729,7 +729,7 @@
             "Translate-Rotate",
             "Post Scale - 1"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "cmds.setAttr('perspShape.filmRollOrder', 1)",
             "cmds.setAttr('perspShape.postScale', 1)",

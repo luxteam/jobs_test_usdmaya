@@ -10,7 +10,6 @@ import os
 from event_recorder import event
 from shutil import copyfile, move
 from collections import deque
-# import fireRender.rpr_material_browser
 
 WORK_DIR = '{work_dir}'
 TEST_TYPE = '{testType}'
@@ -42,14 +41,11 @@ def reportToJSON(case, render_time=0):
         report = json.loads(file.read())[0]
 
     # status for Athena suite will be set later
-    if TEST_TYPE not in ['Athena']:
-        if case['status'] == 'inprogress':
-            if BATCH_RENDER:
-                case['status'] = 'done'
-            report['test_status'] = 'passed'
-            report['group_timeout_exceeded'] = False
-        else:
-            report['test_status'] = case['status']
+    if case['status'] == 'inprogress':
+        if BATCH_RENDER:
+            case['status'] = 'done'
+        report['test_status'] = 'passed'
+        report['group_timeout_exceeded'] = False
 
     logging('Create report json ({{}} {{}})'.format(
             case['case'], report['test_status']), case['case'])
@@ -96,14 +92,6 @@ def reportToJSON(case, render_time=0):
         report['tool'] = mel.eval('about -iv')
     except Exception as e:
         logging('Failed to get Maya version. Reason: {{}}'.format(str(e)), case['case'])
-    # try:
-    #     report['render_version'] = mel.eval('getRPRPluginVersion()')
-    # except Exception as e:
-    #     logging('Failed to get render version. Reason: {{}}'.format(str(e)), case['case'])
-    # try:
-    #     report['core_version'] = mel.eval('getRprCoreVersion()')
-    # except Exception as e:
-    #     logging('Failed to get core version. Reason: {{}}'.format(str(e)), case['case'])
 
     # save metrics which can't be received witout call of functions of Maya (additional measures to avoid stucking of Maya)
     with open(path_to_file, 'w') as file:
@@ -248,44 +236,34 @@ def prerender(case):
                     "Can't prepare for render scene because of {{}}".format(str(e)))
 
         event("Prerender", True, case['case'])
-        # cmds.setAttr('RadeonProRenderGlobals.detailedLog', True)
     else:
         enable_rpr(case['case'])
         event("Prerender", True, case['case'])
 
-    # cmds.athenaEnable(ae=False)
-
-    # if ENGINE == 'Tahoe':
-    #     cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 1)
-    # elif ENGINE == 'Northstar':
-    #     cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 2)
-    # elif ENGINE == 'Hybrid_Low':
-    #     cmds.setAttr("RadeonProRenderGlobals.renderQualityFinalRender", 3)
-    # elif ENGINE == 'Hybrid_Medium':
-    #     cmds.setAttr("RadeonProRenderGlobals.renderQualityFinalRender", 2)
-    # elif ENGINE == 'Hybrid_High':
-    #     cmds.setAttr("RadeonProRenderGlobals.renderQualityFinalRender", 1)
-
-    # cmds.optionVar(rm='RPR_DevicesSelected')
-    # cmds.optionVar(iva=('RPR_DevicesSelected',
-    #                     (RENDER_DEVICE in ['gpu', 'dual'])))
-    # cmds.optionVar(iva=('RPR_DevicesSelected',
-    #                     (RENDER_DEVICE in ['cpu', 'dual'])))
+    if ENGINE == 'Tahoe':
+        cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality', 4)
+    elif ENGINE == 'Northstar':
+        cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality', 5)
+    elif ENGINE == 'Hybrid_Low':
+        cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 0)
+    elif ENGINE == 'Hybrid_Medium':
+        cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 1)
+    elif ENGINE == 'Hybrid_High':
+        cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 2)
+    elif ENGINE == 'Hybrid_Pro':
+        cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 3)
 
     if RESOLUTION_X and RESOLUTION_Y:
         cmds.setAttr('defaultResolution.width', RESOLUTION_X)
         cmds.setAttr('defaultResolution.height', RESOLUTION_Y)
 
-    # cmds.setAttr('defaultRenderGlobals.currentRenderer',
-    #              type='string' 'FireRender')
+    cmds.setAttr('defaultRenderGlobals.currentRenderer',
+                 type='string' 'rprUsdRender')
                  
-    # cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
+    cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
 
-    # cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', THRESHOLD)
-    # cmds.setAttr(
-    #     'RadeonProRenderGlobals.completionCriteriaIterations', PASS_LIMIT)
-    # cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', SPU)
-    # cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)
+    cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', THRESHOLD)
+    cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_maxSamples', PASS_LIMIT)
 
     if not BATCH_RENDER:
         apply_case_functions(case, 0, len(case['functions']))
@@ -390,18 +368,9 @@ def main(case_num=None):
                     case['status'] = 'done'
                     logging(case['case'] + ' done')
 
-                # Athena group will be modified later (now it isn't final result)
-                if TEST_TYPE not in ['Athena']:
-                    with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
-                        json.dump(cases, file, indent=4)
-
         event('Close tool', True, cases[-1]['case'])
 
-        # Athena need additional time for work before close maya
-        if TEST_TYPE not in ['Athena']:
-            cmds.quit(abort=True)
-        else:
-            cmds.evalDeferred('cmds.quit(abort=True)')
+        cmds.quit(abort=True)
 
     else:
         case = cases[case_num]

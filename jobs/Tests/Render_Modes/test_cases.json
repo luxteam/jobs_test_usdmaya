@@ -7,7 +7,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderMode', 0)",
             "rpr_render(case)"
         ]
     },
@@ -19,7 +19,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderMode', 1)",
             "rpr_render(case)"
         ]
     },
@@ -31,7 +31,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 2)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderMode', 2)",
             "rpr_render(case)"
         ]
     },
@@ -43,7 +43,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 3)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderMode', 3)",
             "rpr_render(case)"
         ]
     },
@@ -55,7 +55,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 4)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderMode', 4)",
             "rpr_render(case)"
         ]
     },
@@ -67,7 +67,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 5)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderMode', 5)",
             "rpr_render(case)"
         ]
     },
@@ -79,7 +79,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 6)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderMode', 6)",
             "rpr_render(case)"
         ]
     },
@@ -91,7 +91,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 7)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderMode', 7)",
             "rpr_render(case)"
         ]
     },
@@ -103,7 +103,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 8)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderMode', 8)",
             "rpr_render(case)"
         ]
     },
@@ -115,7 +115,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_core_mtohns_renderMode', 9)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderMode', 9)",
             "rpr_render(case)"
         ]
     }

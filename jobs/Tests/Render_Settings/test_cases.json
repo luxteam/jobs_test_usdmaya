@@ -7,7 +7,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_ambientOcclusion_mtohns_radius', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_ambientOcclusion_mtohns_radius', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -20,7 +20,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_ambientOcclusion_mtohns_radius', 0.5)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_ambientOcclusion_mtohns_radius', 0.5)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -33,7 +33,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_ambientOcclusion_mtohns_radius', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_ambientOcclusion_mtohns_radius', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -46,7 +46,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_antialiasing', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_antialiasing', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -59,7 +59,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_antialiasing', 0.5)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_antialiasing', 0.5)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -72,7 +72,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_antialiasing', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_antialiasing', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -85,7 +85,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthNormal', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthNormal', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -98,7 +98,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthNormal', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthNormal', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -111,7 +111,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_normalThreshold', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_normalThreshold', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -124,7 +124,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_normalThreshold', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_normalThreshold', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -137,7 +137,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthPrimId', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthPrimId', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -150,7 +150,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthPrimId', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthPrimId', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -163,7 +163,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthMaterialId', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthMaterialId', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -176,7 +176,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_contour_mtohns_linewidthMaterialId', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthMaterialId', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -190,8 +190,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_iterStep', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_iterStep', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -205,8 +205,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_iterStep', 32)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_iterStep', 32)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -220,8 +220,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_minIter', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_minIter', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -235,8 +235,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_minIter', 4)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_minIter', 4)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -249,7 +249,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_denoising_mtohns_enable', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_enable', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -262,7 +262,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_maxSamples', 50)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_maxSamples', 50)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -275,7 +275,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_maxSamples', 1000)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_maxSamples', 1000)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -288,7 +288,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_adaptiveSampling_mtohns_minSamples', 64)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_minSamples', 64)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -301,7 +301,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_adaptiveSampling_mtohns_minSamples', 32)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_minSamples', 32)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -314,7 +314,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -327,7 +327,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 0.05)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 0.05)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -340,7 +340,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -353,7 +353,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepth', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepth', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -366,7 +366,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepth', 3)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepth', 3)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -379,7 +379,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepth', 50)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepth', 50)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -392,7 +392,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthDiffuse', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthDiffuse', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -405,7 +405,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthDiffuse', 3)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthDiffuse', 3)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -418,7 +418,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthDiffuse', 50)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthDiffuse', 50)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -431,7 +431,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossy', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossy', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -444,7 +444,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossy', 3)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossy', 3)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -457,7 +457,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossy', 50)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossy', 50)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -470,7 +470,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthRefraction', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthRefraction', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -483,7 +483,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthRefraction', 3)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthRefraction', 3)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -496,7 +496,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthRefraction', 50)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthRefraction', 50)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -509,7 +509,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -522,7 +522,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 3)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 3)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -535,7 +535,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 50)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 50)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -548,7 +548,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthShadow', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthShadow', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -561,7 +561,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthShadow', 3)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthShadow', 3)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -574,7 +574,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_rayDepthShadow', 50)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthShadow', 50)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -587,7 +587,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_raycastEpsilon', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_raycastEpsilon', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -600,7 +600,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_raycastEpsilon', 0.002)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_raycastEpsilon', 0.002)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -613,7 +613,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_raycastEpsilon', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_raycastEpsilon', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -626,7 +626,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_radianceClamping', 0)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_radianceClamping', 0)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -639,7 +639,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_radianceClamping', 0.5)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_radianceClamping', 0.5)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -652,7 +652,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_radianceClamping', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_radianceClamping', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -665,7 +665,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -678,7 +678,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 2)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 2)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -691,7 +691,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 5)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 5)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -704,7 +704,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -717,7 +717,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 2)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 2)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -730,7 +730,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 3)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 3)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -744,8 +744,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_exposureTime', 0.5)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_exposureTime', 0.5)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -759,8 +759,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_exposureTime', 1.3)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_exposureTime', 1.3)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -774,8 +774,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_exposureTime', 2)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_exposureTime', 2)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -789,8 +789,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_sensitivity', 0.5)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_sensitivity', 0.5)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -804,8 +804,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_sensitivity', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_sensitivity', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -819,8 +819,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_sensitivity', 2)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_sensitivity', 2)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -834,8 +834,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_fstop', 0.5)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_fstop', 0.5)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -849,8 +849,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_fstop', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_fstop', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -864,8 +864,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_fstop', 2)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_fstop', 2)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -879,8 +879,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_gamma', 0.5)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_gamma', 0.5)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -894,8 +894,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_gamma', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_gamma', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -909,8 +909,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_gamma', 2)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_gamma', 2)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -924,8 +924,8 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_alpha_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_alpha_mtohns_enable', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
@@ -938,7 +938,7 @@
         ],
         "scene": "Kitchen.ma",
         "functions": [
-            "cmds.setAttr(')defaultRenderGlobals.HdRprPlugin_Prod__rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
             "rpr_render(case)",
             "reset_attributes()"
         ]
