@@ -367,6 +367,9 @@ def main(case_num=None):
                 if case['status'] == 'inprogress':
                     case['status'] = 'done'
                     logging(case['case'] + ' done')
+                
+                with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
+                    json.dump(cases, file, indent=4)
 
         event('Close tool', True, cases[-1]['case'])
 
