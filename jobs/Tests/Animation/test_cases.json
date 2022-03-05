@@ -1,45 +1,49 @@
 [
     {
-        "case": "MAYA_USD_SM_001",
+        "case": "MAYA_USD_ANM_001",
         "status": "active",
         "script_info": [
-            "Quality Northstar"
+            "Frame 10"
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "animation1.ma",
         "functions": [
+            "cmds.currentTime(10)",
             "rpr_render(case)"
         ]
     },
     {
-        "case": "MAYA_USD_SM_002",
+        "case": "MAYA_USD_ANM_002",
         "status": "active",
         "script_info": [
-            "Quality Northstar"
+            "Frame 50"
         ],
-        "scene": "Jet.mb",
+        "scene": "animation1.ma",
         "functions": [
+            "cmds.currentTime(50)",
             "rpr_render(case)"
         ]
     },
     {
-        "case": "MAYA_USD_SM_003",
+        "case": "MAYA_USD_ANM_003",
         "status": "active",
         "script_info": [
-            "Quality Northstar"
+            "Frame 10"
         ],
-        "scene": "Kitchen.ma",
+        "scene": "animation2.ma",
         "functions": [
+            "cmds.currentTime(10)",
             "rpr_render(case)"
         ]
     },
     {
-        "case": "MAYA_USD_SM_004",
+        "case": "MAYA_USD_ANM_004",
         "status": "active",
         "script_info": [
-            "Quality Northstar"
+            "Frame 50"
         ],
-        "scene": "Mclaren.ma",
+        "scene": "animation2.ma",
         "functions": [
+            "cmds.currentTime(50)",
             "rpr_render(case)"
         ]
     }

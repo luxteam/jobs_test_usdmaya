@@ -1,0 +1,947 @@
+[
+    {
+        "case": "MAYA_USD_RS_001",
+        "status": "active",
+        "script_info": [
+            "Ambient Radius 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "reset_attributes()",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_ambientOcclusion_mtohns_radius', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_002",
+        "status": "active",
+        "script_info": [
+            "Ambient Radius 0.5"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_ambientOcclusion_mtohns_radius', 0.5)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_003",
+        "status": "active",
+        "script_info": [
+            "Ambient Radius 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_ambientOcclusion_mtohns_radius', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_004",
+        "status": "active",
+        "script_info": [
+            "Antialiasing 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_antialiasing', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_005",
+        "status": "active",
+        "script_info": [
+            "Antialiasing 0.5"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_antialiasing', 0.5)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_006",
+        "status": "active",
+        "script_info": [
+            "Antialiasing 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_antialiasing', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_007",
+        "status": "active",
+        "script_info": [
+            "Linewidth normal 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthNormal', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_008",
+        "status": "active",
+        "script_info": [
+            "Linewidth normal 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthNormal', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_009",
+        "status": "active",
+        "script_info": [
+            "Normal threshold 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_normalThreshold', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_010",
+        "status": "active",
+        "script_info": [
+            "Normal threshold 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_normalThreshold', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_011",
+        "status": "active",
+        "script_info": [
+            "Linewidth primitive id 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthPrimId', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_012",
+        "status": "active",
+        "script_info": [
+            "Linewidth primitive id 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthPrimId', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_013",
+        "status": "active",
+        "script_info": [
+            "Linewidth Material id 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthMaterialId', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_014",
+        "status": "active",
+        "script_info": [
+            "Linewidth Material id 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_contour_mtohns_linewidthMaterialId', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_015",
+        "status": "active",
+        "script_info": [
+            "Denoiser enable",
+            "Denoiser iteration step 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_iterStep', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_016",
+        "status": "active",
+        "script_info": [
+            "Denoiser enable",
+            "Denoiser iteration step 32"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_iterStep', 32)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_017",
+        "status": "active",
+        "script_info": [
+            "Denoiser enable",
+            "Denoiser min iteration 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_minIter', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_018",
+        "status": "active",
+        "script_info": [
+            "Denoiser enable",
+            "Denoiser min iteration 4"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_minIter', 4)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_019",
+        "status": "active",
+        "script_info": [
+            "Denoiser disable"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_enable', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_020",
+        "status": "active",
+        "script_info": [
+            "Max samples 50"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_maxSamples', 50)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_021",
+        "status": "active",
+        "script_info": [
+            "Max samples 1000"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_maxSamples', 1000)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_022",
+        "status": "active",
+        "script_info": [
+            "Min samples 64"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_minSamples', 64)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_023",
+        "status": "active",
+        "script_info": [
+            "Min samples 32"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_minSamples', 32)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_024",
+        "status": "active",
+        "script_info": [
+            "Noise threshold 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_025",
+        "status": "active",
+        "script_info": [
+            "Noise threshold 0.05"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 0.05)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_026",
+        "status": "active",
+        "script_info": [
+            "Noise threshold 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_027",
+        "status": "active",
+        "script_info": [
+            "Max ray depth 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepth', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_028",
+        "status": "active",
+        "script_info": [
+            "Max ray depth 3"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepth', 3)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_029",
+        "status": "active",
+        "script_info": [
+            "Max ray depth 50"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepth', 50)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_030",
+        "status": "active",
+        "script_info": [
+            "Diffuse ray depth 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthDiffuse', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_031",
+        "status": "active",
+        "script_info": [
+            "Diffuse ray depth 3"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthDiffuse', 3)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_032",
+        "status": "active",
+        "script_info": [
+            "Diffuse ray depth 50"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthDiffuse', 50)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_033",
+        "status": "active",
+        "script_info": [
+            "Glossy ray depth 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossy', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_034",
+        "status": "active",
+        "script_info": [
+            "Glossy ray depth 3"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossy', 3)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_035",
+        "status": "active",
+        "script_info": [
+            "Glossy ray depth 50"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossy', 50)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_036",
+        "status": "active",
+        "script_info": [
+            "Refraction ray depth 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthRefraction', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_037",
+        "status": "active",
+        "script_info": [
+            "Refraction ray depth 3"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthRefraction', 3)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_038",
+        "status": "active",
+        "script_info": [
+            "Refraction ray depth 50"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthRefraction', 50)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_039",
+        "status": "active",
+        "script_info": [
+            "Glossy refraction ray depth 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_040",
+        "status": "active",
+        "script_info": [
+            "Glossy refraction ray depth 3"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 3)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_041",
+        "status": "active",
+        "script_info": [
+            "Glossy refraction ray depth 50"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthGlossyRefraction', 50)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_042",
+        "status": "active",
+        "script_info": [
+            "Shadow ray depth 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthShadow', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_043",
+        "status": "active",
+        "script_info": [
+            "Shadow ray depth 3"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthShadow', 3)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_044",
+        "status": "active",
+        "script_info": [
+            "Shadow ray depth 50"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_rayDepthShadow', 50)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_045",
+        "status": "active",
+        "script_info": [
+            "Ray epsilon 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_raycastEpsilon', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_046",
+        "status": "active",
+        "script_info": [
+            "Ray epsilon 0.002"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_raycastEpsilon', 0.002)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_047",
+        "status": "active",
+        "script_info": [
+            "Ray epsilon 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_raycastEpsilon', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_048",
+        "status": "active",
+        "script_info": [
+            "Max radiance 0"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_radianceClamping', 0)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_049",
+        "status": "active",
+        "script_info": [
+            "Max radiance 0.5"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_radianceClamping', 0.5)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_050",
+        "status": "active",
+        "script_info": [
+            "Max radiance 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_radianceClamping', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_051",
+        "status": "active",
+        "script_info": [
+            "Interactive max ray depth 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_052",
+        "status": "active",
+        "script_info": [
+            "Interactive max ray depth 2"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 2)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_053",
+        "status": "active",
+        "script_info": [
+            "Interactive max ray depth 5"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_rayDepth', 5)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_054",
+        "status": "active",
+        "script_info": [
+            "Active resolution downscale 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_055",
+        "status": "active",
+        "script_info": [
+            "Active resolution downscale 2"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 2)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_056",
+        "status": "active",
+        "script_info": [
+            "Active resolution downscale 3"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_quality_mtohns_interactive_mtohns_downscale_mtohns_resolution', 3)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_057",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Film exposure 0.5"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_exposureTime', 0.5)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_058",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Film exposure 1.3"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_exposureTime', 1.3)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_059",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Film exposure 2"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_exposureTime', 2)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_060",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Film sensitivity 0.5"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_sensitivity', 0.5)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_061",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Film sensitivity 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_sensitivity', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_062",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Film sensitivity 2"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_sensitivity', 2)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_063",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Fstop 0.5"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_fstop', 0.5)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_064",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Fstop 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_fstop', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_065",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Fstop 2"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_fstop', 2)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_066",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Tone mapping gamma 0.5"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_gamma', 0.5)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_067",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Tone mapping gamma 1"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_gamma', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_068",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Tone mapping gamma 2"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_gamma', 2)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_069",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping",
+            "Enabled color alpha"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_alpha_mtohns_enable', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    },
+    {
+        "case": "MAYA_USD_RS_070",
+        "status": "active",
+        "script_info": [
+            "Enabled tonemapping"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_tonemapping_mtohns_enable', 1)",
+            "rpr_render(case)",
+            "reset_attributes()"
+        ]
+    }
+]

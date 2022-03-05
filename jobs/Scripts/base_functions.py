@@ -10,7 +10,6 @@ import os
 from event_recorder import event
 from shutil import copyfile, move
 from collections import deque
-import fireRender.rpr_material_browser
 
 WORK_DIR = '{work_dir}'
 TEST_TYPE = '{testType}'
@@ -42,14 +41,11 @@ def reportToJSON(case, render_time=0):
         report = json.loads(file.read())[0]
 
     # status for Athena suite will be set later
-    if TEST_TYPE not in ['Athena']:
-        if case['status'] == 'inprogress':
-            if BATCH_RENDER:
-                case['status'] = 'done'
-            report['test_status'] = 'passed'
-            report['group_timeout_exceeded'] = False
-        else:
-            report['test_status'] = case['status']
+    if case['status'] == 'inprogress':
+        if BATCH_RENDER:
+            case['status'] = 'done'
+        report['test_status'] = 'passed'
+        report['group_timeout_exceeded'] = False
 
     logging('Create report json ({{}} {{}})'.format(
             case['case'], report['test_status']), case['case'])
@@ -70,6 +66,10 @@ def reportToJSON(case, render_time=0):
         report['message'] = []
 
     report['date_time'] = datetime.datetime.now().strftime('%m/%d/%Y %H:%M:%S')
+    if 'render_start_time' in case:
+        report['render_start_time'] = case['render_start_time']
+    if 'render_end_time' in case:
+        report['render_end_time'] = case['render_end_time']
     report['render_time'] = render_time
     report['test_group'] = TEST_TYPE
     report['test_case'] = case['case']
@@ -92,14 +92,6 @@ def reportToJSON(case, render_time=0):
         report['tool'] = mel.eval('about -iv')
     except Exception as e:
         logging('Failed to get Maya version. Reason: {{}}'.format(str(e)), case['case'])
-    try:
-        report['render_version'] = mel.eval('getRPRPluginVersion()')
-    except Exception as e:
-        logging('Failed to get render version. Reason: {{}}'.format(str(e)), case['case'])
-    try:
-        report['core_version'] = mel.eval('getRprCoreVersion()')
-    except Exception as e:
-        logging('Failed to get core version. Reason: {{}}'.format(str(e)), case['case'])
 
     # save metrics which can't be received witout call of functions of Maya (additional measures to avoid stucking of Maya)
     with open(path_to_file, 'w') as file:
@@ -159,12 +151,12 @@ def apply_case_functions(case, start_index, end_index):
             logging('Error "{{}}" with string "{{}}"'.format(e, function), case['case'])
 
 
-def enable_plugin(case):
-    if not cmds.pluginInfo('mayaUsdPlugin', query=True, loaded=True):
-        event('Load plugin', True, case)
-        cmds.loadPlugin('mayaUsdPlugin', quiet=True)
-        event('Load plugin', False, case)
-        logging('Load plugin', case)
+def enable_rpr(case):
+    event('Load plugin', True, case)
+    cmds.loadPlugin('mayaUsdPlugin', quiet=True)
+    cmds.loadPlugin('mtoh', quiet=True)
+    event('Load plugin', False, case)
+    logging('Load plugin', case)
 
 
 def rpr_render(case, mode='color'):
@@ -179,16 +171,18 @@ def rpr_render(case, mode='color'):
 
     logging('Render image', case['case'])
 
-    mel.eval('fireRender -waitForItTwo')
-    start_time = time.time()
+    mel.eval('rprUsdRender -cam persp -h 800 -w 600 -wft')
+    render_start_time = datetime.datetime.now()
+    case['render_start_time'] = str(render_start_time)
     mel.eval('renderIntoNewWindow render')
     cmds.sysFile(path.join(WORK_DIR, 'Color'), makeDir=True)
     test_case_path = path.join(WORK_DIR, 'Color', case['case'])
     cmds.renderWindowEditor('renderView', edit=1,  dst=mode)
     cmds.renderWindowEditor('renderView', edit=1, com=1,
-                                writeImage=test_case_path)
-    test_time = time.time() - start_time
-
+                            writeImage=test_case_path)
+    render_end_time = datetime.datetime.now()
+    case['render_end_time'] = str(render_end_time)
+    test_time = (render_end_time - render_start_time).total_seconds()
     event('Postrender', True, case['case'])
     reportToJSON(case, test_time)
 
@@ -198,15 +192,23 @@ def postrender(case_num):
         cases = json.load(json_file)
     case = cases[case_num]
 
+    if 'render_start_time' in case:
+        render_end_time = datetime.datetime.now()
+        case['render_end_time'] = str(render_end_time)
+        test_time = (render_end_time - datetime.datetime.strptime(case['render_start_time'], '%Y-%m-%d %H:%M:%S.%f')).total_seconds()
+    else:
+        test_time = -0.0
+
     logging('Postrender', case['case'])
     event("Postrender", True, case['case'])
-
-    case_time = (datetime.datetime.now() - datetime.datetime.strptime(case['start_time'], '%Y-%m-%d %H:%M:%S.%f')).total_seconds()
-    case['time_taken'] = case_time
-    reportToJSON(case, case_time)
+    reportToJSON(case, test_time)
 
     apply_case_functions(case, case['functions'].index("rpr_render(case)") + 1, len(case['functions']))
     event("Postrender", False, case['case'])
+
+    case_end_time = datetime.datetime.now()
+    case['case_end_time'] = str(case_end_time)
+    case['time_taken'] = (case_end_time - datetime.datetime.strptime(case['case_start_time'], '%Y-%m-%d %H:%M:%S.%f')).total_seconds()
 
     with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
         json.dump(cases, file, indent=4)
@@ -228,21 +230,45 @@ def prerender(case):
                 event('Open scene', True, case['case'])
                 cmds.file(scenePath, f=True, op='v=0;', prompt=False, iv=True, o=True)
                 event('Open scene', False, case['case'])
-                enable_plugin(case['case'])
+                enable_rpr(case['case'])
             except Exception as e:
                 logging(
                     "Can't prepare for render scene because of {{}}".format(str(e)))
 
         event("Prerender", True, case['case'])
-        cmds.setAttr('RadeonProRenderGlobals.detailedLog', True)
     else:
-        enable_plugin(case['case'])
+        enable_rpr(case['case'])
         event("Prerender", True, case['case'])
 
-    if ENGINE == 'Northstar':
-        cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 1)
-    elif ENGINE == 'Tahoe':
-        cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 2)
+    if ENGINE == 'Tahoe':
+        cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality', 4)
+    elif ENGINE == 'Northstar':
+        cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality', 5)
+    elif ENGINE == 'Hybrid_Low':
+        cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 0)
+    elif ENGINE == 'Hybrid_Medium':
+        cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 1)
+    elif ENGINE == 'Hybrid_High':
+        cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 2)
+    elif ENGINE == 'Hybrid_Pro':
+        cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 3)
+
+    if RESOLUTION_X and RESOLUTION_Y:
+        cmds.setAttr('defaultResolution.width', RESOLUTION_X)
+        cmds.setAttr('defaultResolution.height', RESOLUTION_Y)
+
+    cmds.setAttr('defaultRenderGlobals.currentRenderer',
+                 type='string' 'rprUsdRender')
+                 
+    cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
+
+    cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_adaptiveSampling_mtohns_noiseTreshold', THRESHOLD)
+    cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_maxSamples', PASS_LIMIT)
+
+    if not BATCH_RENDER:
+        apply_case_functions(case, 0, len(case['functions']))
+    else:
+        apply_case_functions(case, 0, case['functions'].index("rpr_render(case)") + 1)
 
 
 
@@ -265,7 +291,7 @@ def save_report(case):
             copyfile(
                 path.join(source_dir, case['status'] + '.jpg'), work_dir)
 
-    enable_plugin(case['case'])
+    enable_rpr(case['case'])
 
     reportToJSON(case)
 
@@ -331,27 +357,23 @@ def main(case_num=None):
 
                 logging(case['case'] + ' in progress')
 
-                start_time = datetime.datetime.now()
+                case_start_time = datetime.datetime.now()
+                case['case_start_time'] = str(case_start_time)
                 case_function(case)
-                case_time = (datetime.datetime.now() - start_time).total_seconds()
-                case['time_taken'] = case_time
+                case_end_time = datetime.datetime.now()
+                case['case_end_time'] = str(case_end_time)
+                case['time_taken'] = (case_end_time - case_start_time).total_seconds()
 
                 if case['status'] == 'inprogress':
                     case['status'] = 'done'
                     logging(case['case'] + ' done')
-
-                # Athena group will be modified later (now it isn't final result)
-                if TEST_TYPE not in ['Athena']:
-                    with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
-                        json.dump(cases, file, indent=4)
+                
+                with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
+                    json.dump(cases, file, indent=4)
 
         event('Close tool', True, cases[-1]['case'])
 
-        # Athena need additional time for work before close maya
-        if TEST_TYPE not in ['Athena']:
-            cmds.quit(abort=True)
-        else:
-            cmds.evalDeferred('cmds.quit(abort=True)')
+        cmds.quit(abort=True)
 
     else:
         case = cases[case_num]
@@ -359,9 +381,11 @@ def main(case_num=None):
         if case['status'] == 'active':
             case['status'] = 'inprogress'
 
-        case['start_time'] = str(datetime.datetime.now())
+        case['case_start_time'] = str(datetime.datetime.now())
         case['number_of_tries'] = case.get('number_of_tries', 0) + 1
         
         with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
             json.dump(cases, file, indent=4)
         prerender(case)
+        with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
+            json.dump(cases, file, indent=4)

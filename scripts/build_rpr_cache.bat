@@ -5,9 +5,9 @@ set MAYA_CMD_FILE_OUTPUT=%CD%\..\templog
 set TOOL=%1
 set ENGINE=%2
 
-if not defined TOOL set TOOL=2020
-if not defined ENGINE set ENGINE=Tahoe
+if not defined TOOL set TOOL=2022
+if not defined ENGINE set ENGINE=Northstar
 
-"C:\Program Files\Autodesk\Maya%TOOL%\bin\maya.exe" -command "python(\"import cache_building\")" -file "C:\\TestResources\\rpr_maya_autotests_assets\\material_baseline.mb"
+"C:\Program Files\Autodesk\Maya%TOOL%\bin\maya.exe" -command "python(\"import cache_building\")" -file "C:\\TestResources\\usd_maya_autotests\\Scenes\\USD_Material.ma"
 
 type %MAYA_CMD_FILE_OUTPUT%

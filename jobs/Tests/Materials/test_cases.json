@@ -1,44 +1,44 @@
 [
     {
-        "case": "MAYA_USD_SM_001",
+        "case": "MAYA_USD_MT_001",
         "status": "active",
         "script_info": [
-            "Quality Northstar"
+            ""
         ],
-        "scene": "CarClipperUSD.ma",
+        "scene": "Blin_Material.ma",
         "functions": [
             "rpr_render(case)"
         ]
     },
     {
-        "case": "MAYA_USD_SM_002",
+        "case": "MAYA_USD_MT_002",
         "status": "active",
         "script_info": [
-            "Quality Northstar"
+            ""
         ],
-        "scene": "Jet.mb",
+        "scene": "Phong.ma",
         "functions": [
             "rpr_render(case)"
         ]
     },
     {
-        "case": "MAYA_USD_SM_003",
+        "case": "MAYA_USD_MT_003",
         "status": "active",
         "script_info": [
-            "Quality Northstar"
+            ""
         ],
-        "scene": "Kitchen.ma",
+        "scene": "Lambert_Material.ma",
         "functions": [
             "rpr_render(case)"
         ]
     },
     {
-        "case": "MAYA_USD_SM_004",
+        "case": "MAYA_USD_MT_004",
         "status": "active",
         "script_info": [
-            "Quality Northstar"
+            ""
         ],
-        "scene": "Mclaren.ma",
+        "scene": "USD_Material.ma",
         "functions": [
             "rpr_render(case)"
         ]
