@@ -475,7 +475,7 @@ def main(args, error_windows):
     render_platform = {platform.system(), gpu}
     system_pl = platform.system()
 
-    baseline_dir = 'rpr_maya_autotests_baselines'
+    baseline_dir = 'usd_maya_autotests_baselines'
     if args.engine == 'Northstar':
         baseline_dir = baseline_dir + '-NorthStar'
     elif args.engine == 'Hybrid_Low':
