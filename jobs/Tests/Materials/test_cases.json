@@ -36,7 +36,7 @@
         "case": "MAYA_USD_MT_004",
         "status": "active",
         "script_info": [
-            ""
+            "Black image expected"
         ],
         "scene": "USD_Material.ma",
         "functions": [

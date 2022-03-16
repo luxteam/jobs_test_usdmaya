@@ -75,7 +75,8 @@
         "case": "MAYA_USD_RM_007",
         "status": "active",
         "script_info": [
-            "Render mode Texcoord"
+            "Render mode Texcoord",
+            "Black image expected"
         ],
         "scene": "Kitchen.ma",
         "functions": [
