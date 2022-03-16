@@ -240,25 +240,22 @@ def prerender(case):
         enable_rpr(case['case'])
         event("Prerender", True, case['case'])
 
-    if ENGINE == 'Tahoe':
-        cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality', 4)
-    elif ENGINE == 'Northstar':
+    if ENGINE == 'Northstar':
         cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality', 5)
-    elif ENGINE == 'Hybrid_Low':
+    elif ENGINE == 'HybridLow':
         cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 0)
-    elif ENGINE == 'Hybrid_Medium':
+    elif ENGINE == 'HybridMedium':
         cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 1)
-    elif ENGINE == 'Hybrid_High':
+    elif ENGINE == 'HybridHigh':
         cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 2)
-    elif ENGINE == 'Hybrid_Pro':
+    elif ENGINE == 'HybridPro':
         cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 3)
 
     if RESOLUTION_X and RESOLUTION_Y:
         cmds.setAttr('defaultResolution.width', RESOLUTION_X)
         cmds.setAttr('defaultResolution.height', RESOLUTION_Y)
 
-    cmds.setAttr('defaultRenderGlobals.currentRenderer',
-                 type='string' 'rprUsdRender')
+    cmds.setAttr('defaultRenderGlobals.currentRenderer', 'rprUsdRender', type='string')
                  
     cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
 

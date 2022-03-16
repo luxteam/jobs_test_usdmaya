@@ -494,7 +494,8 @@
         "case": "MAYA_USD_CM_037",
         "status": "active",
         "script_info": [
-            "Film Roll Value - 90"
+            "Film Roll Value - 90",
+            "Black image expected"
         ],
         "scene": "Kitchen.ma",
         "functions": [
@@ -667,7 +668,8 @@
         "status": "active",
         "script_info": [
             "Translate-Rotate",
-            "Film Roll Value - 90"
+            "Film Roll Value - 90",
+            "Black image expected"
         ],
         "scene": "Kitchen.ma",
         "functions": [

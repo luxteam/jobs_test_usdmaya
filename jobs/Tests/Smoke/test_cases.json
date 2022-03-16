@@ -3,7 +3,8 @@
         "case": "MAYA_USD_SM_001",
         "status": "active",
         "script_info": [
-            "Quality Northstar"
+            "Quality Northstar",
+            "Black image expected"
         ],
         "scene": "CarClipperUSD.ma",
         "functions": [
@@ -34,13 +35,14 @@
     },
     {
         "case": "MAYA_USD_SM_004",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Quality Northstar"
         ],
         "scene": "Mclaren.ma",
         "functions": [
             "rpr_render(case)"
-        ]
+        ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/MAYAUS-21"
     }
 ]
