@@ -24,7 +24,7 @@ def main():
 
     try:
         print("[INFO] Preparing configurations for rendering...")
-        cmds.setAttr('defaultRenderGlobals.currentRenderer', type='string' 'rprUsdRender')
+        cmds.setAttr('defaultRenderGlobals.currentRenderer', 'rprUsdRender', type='string')
         
         engine = os.getenv('ENGINE', 'Northstar')
         if engine == 'Northstar':

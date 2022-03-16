@@ -6,7 +6,7 @@ export MAYA_CMD_FILE_OUTPUT=$PWD/../templog
 TOOL=${1:-2022}
 export ENGINE=${2:-Northstar}
 
-maya${TOOL} -command "python(\"import cache_building\")" -file "$CIS_TOOLS/../TestResources/usd_maya_autotests/Scenes/Kitchen.ma"
+maya${TOOL} -command "python(\"import cache_building\")" -file "$CIS_TOOLS/../TestResources/usd_maya_autotests/Scenes/USD_Material"
 
 echo "--------Script editor log--------"
 cat $MAYA_CMD_FILE_OUTPUT
