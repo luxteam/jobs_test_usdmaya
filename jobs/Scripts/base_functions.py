@@ -255,8 +255,7 @@ def prerender(case):
         cmds.setAttr('defaultResolution.width', RESOLUTION_X)
         cmds.setAttr('defaultResolution.height', RESOLUTION_Y)
 
-    cmds.setAttr('defaultRenderGlobals.currentRenderer',
-                 type='string' 'rprUsdRender')
+    cmds.setAttr('defaultRenderGlobals.currentRenderer', 'rprUsdRender', type='string')
                  
     cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
 
