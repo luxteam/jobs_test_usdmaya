@@ -15,8 +15,7 @@
         "case": "MAYA_USD_SM_002",
         "status": "active",
         "script_info": [
-            "Quality Northstar",
-            "Black image expected"
+            "Quality Northstar"
         ],
         "scene": "Jet.mb",
         "functions": [
@@ -27,8 +26,7 @@
         "case": "MAYA_USD_SM_003",
         "status": "active",
         "script_info": [
-            "Quality Northstar",
-            "Black image expected"
+            "Quality Northstar"
         ],
         "scene": "Kitchen.ma",
         "functions": [
