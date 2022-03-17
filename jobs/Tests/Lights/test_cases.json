@@ -9,7 +9,7 @@
         "functions": [
             "cmds.setAttr('areaLightShape1.color', 1, 0, 0, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('areaLightShape1')"
         ]
     },
     {
@@ -22,7 +22,7 @@
         "functions": [
             "cmds.setAttr('areaLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('areaLightShape1')"
         ]
     },
     {
@@ -35,7 +35,7 @@
         "functions": [
             "cmds.setAttr('areaLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('areaLightShape1')"
         ]
     },
     {
@@ -48,7 +48,7 @@
         "functions": [
             "cmds.setAttr('areaLightShape1.intensity', 1)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('areaLightShape1')"
         ]
     },
     {
@@ -61,7 +61,7 @@
         "functions": [
             "cmds.setAttr('areaLightShape1.intensity', 1000)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('areaLightShape1')"
         ]
     },
     {
@@ -74,7 +74,7 @@
         "functions": [
             "cmds.setAttr('areaLightShape1.intensity', 5000)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('areaLightShape1')"
         ]
     },
 
@@ -88,7 +88,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.color', 1, 0, 0, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
     {
@@ -101,7 +101,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
     {
@@ -114,7 +114,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
     {
@@ -127,7 +127,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.intensity', 1)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
     {
@@ -140,7 +140,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.intensity', 1000)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
     {
@@ -153,7 +153,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.intensity', 5000)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
     {
@@ -166,7 +166,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.coneAngle', 40)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
     {
@@ -179,7 +179,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.coneAngle', 100)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
     {
@@ -192,7 +192,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.penumbraAngle', 0)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
     {
@@ -205,7 +205,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.penumbraAngle', 10)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
     {
@@ -218,7 +218,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.dropoff', 0)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
     {
@@ -231,7 +231,7 @@
         "functions": [
             "cmds.setAttr('spotLightShape1.dropoff', 10)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('spotLightShape1')"
         ]
     },
 
@@ -245,7 +245,7 @@
         "functions": [
             "cmds.setAttr('pointLightShape1.color', 1, 0, 0, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('pointLightShape1')"
         ]
     },
     {
@@ -258,7 +258,7 @@
         "functions": [
             "cmds.setAttr('pointLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('pointLightShape1')"
         ]
     },
     {
@@ -271,7 +271,7 @@
         "functions": [
             "cmds.setAttr('pointLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('pointLightShape1')"
         ]
     },
     {
@@ -284,7 +284,7 @@
         "functions": [
             "cmds.setAttr('pointLightShape1.intensity', 1)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('pointLightShape1')"
         ]
     },
     {
@@ -297,7 +297,7 @@
         "functions": [
             "cmds.setAttr('pointLightShape1.intensity', 1000)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('pointLightShape1')"
         ]
     },
     {
@@ -310,7 +310,7 @@
         "functions": [
             "cmds.setAttr('pointLightShape1.intensity', 5000)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('pointLightShape1')"
         ]
     },
 
@@ -324,7 +324,7 @@
         "functions": [
             "cmds.setAttr('directionalLightShape1.color', 1, 0, 0, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('directionalLightShape1')"
         ]
     },
     {
@@ -337,7 +337,7 @@
         "functions": [
             "cmds.setAttr('directionalLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('directionalLightShape1')"
         ]
     },
     {
@@ -350,7 +350,7 @@
         "functions": [
             "cmds.setAttr('directionalLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('directionalLightShape1')"
         ]
     },
     {
@@ -363,7 +363,7 @@
         "functions": [
             "cmds.setAttr('directionalLightShape1.intensity', 1)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('directionalLightShape1')"
         ]
     },
     {
@@ -376,7 +376,7 @@
         "functions": [
             "cmds.setAttr('directionalLightShape1.intensity', 1000)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('directionalLightShape1')"
         ]
     },
     {
@@ -389,7 +389,7 @@
         "functions": [
             "cmds.setAttr('directionalLightShape1.intensity', 5000)",
             "rpr_render(case)",
-            "reset_attributes()"
+            "reset_attributes('directionalLightShape1')"
         ]
     }
 ]
