@@ -21,8 +21,16 @@
             "value": 41
         },
         {
-            "suite_name": "Animation",
+            "suite_name": "Smoke",
             "value": 40
+        },
+        {
+            "suite_name": "Animation",
+            "value": 240
+        },
+        {
+            "suite_name": "Lights",
+            "value": 180
         }
     ]
 }
