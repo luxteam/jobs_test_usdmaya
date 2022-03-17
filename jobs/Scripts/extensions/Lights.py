@@ -1,5 +1,5 @@
 def reset_attributes(node_name):
-    cmds.setAttr(node_name + ".horizontalFilmAperture", 1, 1, 1, type='double3')
+    cmds.setAttr(node_name + ".color", 1, 1, 1, type='double3')
     cmds.setAttr(node_name + ".intensity", 5000)
 
     if node_name == "spotLightShape1":
