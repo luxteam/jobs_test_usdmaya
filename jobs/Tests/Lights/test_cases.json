@@ -42,7 +42,8 @@
         "case": "Maya_USD_LT_004",
         "status": "active",
         "script_info": [
-            "Set intensity 1"
+            "Set intensity 1",
+            "Black image expected"
         ],
         "scene": "AreaLightUSD.ma",
         "functions": [
@@ -121,7 +122,8 @@
         "case": "Maya_USD_LT_010",
         "status": "active",
         "script_info": [
-            "Set intensity 1"
+            "Set intensity 1",
+            "Black image expected"
         ],
         "scene": "SpotlightUSD.ma",
         "functions": [
@@ -239,7 +241,8 @@
         "case": "Maya_USD_LT_019",
         "status": "active",
         "script_info": [
-            "Set color Red"
+            "Set color Red",
+            "Black image expected"
         ],
         "scene": "pointlightUSD.ma",
         "functions": [
@@ -278,7 +281,8 @@
         "case": "Maya_USD_LT_022",
         "status": "active",
         "script_info": [
-            "Set intensity 1"
+            "Set intensity 1",
+            "Black image expected"
         ],
         "scene": "pointlightUSD.ma",
         "functions": [
