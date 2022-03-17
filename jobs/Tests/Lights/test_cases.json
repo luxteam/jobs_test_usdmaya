@@ -1,0 +1,399 @@
+[
+    {
+        "case": "Maya_USD_LT_001",
+        "status": "active",
+        "script_info": [
+            "Set color Red"
+        ],
+        "scene": "AreaLightUSD.ma",
+        "functions": [
+            "cmds.setAttr('areaLightShape1.color', 1, 0, 0, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('areaLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_002",
+        "status": "active",
+        "script_info": [
+            "Set color White"
+        ],
+        "scene": "AreaLightUSD.ma",
+        "functions": [
+            "cmds.setAttr('areaLightShape1.color', 1, 1, 1, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('areaLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_003",
+        "status": "active",
+        "script_info": [
+            "Set color Bed"
+        ],
+        "scene": "AreaLightUSD.ma",
+        "functions": [
+            "cmds.setAttr('areaLightShape1.color', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('areaLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_004",
+        "status": "active",
+        "script_info": [
+            "Set intensity 1",
+            "Black image expected"
+        ],
+        "scene": "AreaLightUSD.ma",
+        "functions": [
+            "cmds.setAttr('areaLightShape1.intensity', 1)",
+            "rpr_render(case)",
+            "reset_attributes('areaLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_005",
+        "status": "active",
+        "script_info": [
+            "Set intensity 1000"
+        ],
+        "scene": "AreaLightUSD.ma",
+        "functions": [
+            "cmds.setAttr('areaLightShape1.intensity', 1000)",
+            "rpr_render(case)",
+            "reset_attributes('areaLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_006",
+        "status": "active",
+        "script_info": [
+            "Set intensity 5000"
+        ],
+        "scene": "AreaLightUSD.ma",
+        "functions": [
+            "cmds.setAttr('areaLightShape1.intensity', 5000)",
+            "rpr_render(case)",
+            "reset_attributes('areaLightShape1')"
+        ]
+    },
+
+    {
+        "case": "Maya_USD_LT_007",
+        "status": "active",
+        "script_info": [
+            "Set color Red"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.color', 1, 0, 0, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_008",
+        "status": "active",
+        "script_info": [
+            "Set color White"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.color', 1, 1, 1, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_009",
+        "status": "active",
+        "script_info": [
+            "Set color Bed"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.color', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_010",
+        "status": "active",
+        "script_info": [
+            "Set intensity 1",
+            "Black image expected"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.intensity', 1)",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_011",
+        "status": "active",
+        "script_info": [
+            "Set intensity 1000"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.intensity', 1000)",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_012",
+        "status": "active",
+        "script_info": [
+            "Set intensity 5000"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.intensity', 5000)",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_013",
+        "status": "active",
+        "script_info": [
+            "set cone angle 40"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.coneAngle', 40)",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_014",
+        "status": "active",
+        "script_info": [
+            "set cone angle 100"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.coneAngle', 100)",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_015",
+        "status": "active",
+        "script_info": [
+            "set penumbra angle 0"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.penumbraAngle', 0)",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_016",
+        "status": "active",
+        "script_info": [
+            "Set penumbra angle 10"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.penumbraAngle', 10)",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_017",
+        "status": "active",
+        "script_info": [
+            "Set drop off 0"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.dropoff', 0)",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_018",
+        "status": "active",
+        "script_info": [
+            "Set drop off 10"
+        ],
+        "scene": "SpotlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('spotLightShape1.dropoff', 10)",
+            "rpr_render(case)",
+            "reset_attributes('spotLightShape1')"
+        ]
+    },
+
+    {
+        "case": "Maya_USD_LT_019",
+        "status": "active",
+        "script_info": [
+            "Set color Red"
+        ],
+        "scene": "pointlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('pointLightShape1.intensity', 5000)",
+            "cmds.setAttr('pointLightShape1.color', 1, 0, 0, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('pointLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_020",
+        "status": "active",
+        "script_info": [
+            "Set color White"
+        ],
+        "scene": "pointlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('pointLightShape1.color', 1, 1, 1, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('pointLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_021",
+        "status": "active",
+        "script_info": [
+            "Set color Bed"
+        ],
+        "scene": "pointlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('pointLightShape1.color', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('pointLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_022",
+        "status": "active",
+        "script_info": [
+            "Set intensity 1",
+            "Black image expected"
+        ],
+        "scene": "pointlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('pointLightShape1.intensity', 1)",
+            "rpr_render(case)",
+            "reset_attributes('pointLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_023",
+        "status": "active",
+        "script_info": [
+            "Set intensity 1000"
+        ],
+        "scene": "pointlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('pointLightShape1.intensity', 1000)",
+            "rpr_render(case)",
+            "reset_attributes('pointLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_024",
+        "status": "active",
+        "script_info": [
+            "Set intensity 5000"
+        ],
+        "scene": "pointlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('pointLightShape1.intensity', 5000)",
+            "rpr_render(case)",
+            "reset_attributes('pointLightShape1')"
+        ]
+    },
+
+    {
+        "case": "Maya_USD_LT_025",
+        "status": "active",
+        "script_info": [
+            "Set color Red"
+        ],
+        "scene": "directlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('directionalLightShape1.color', 1, 0, 0, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('directionalLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_026",
+        "status": "active",
+        "script_info": [
+            "Set color White"
+        ],
+        "scene": "directlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('directionalLightShape1.color', 1, 1, 1, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('directionalLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_027",
+        "status": "active",
+        "script_info": [
+            "Set color Bed"
+        ],
+        "scene": "directlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('directionalLightShape1.color', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "reset_attributes('directionalLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_028",
+        "status": "active",
+        "script_info": [
+            "Set intensity 1"
+        ],
+        "scene": "directlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('directionalLightShape1.intensity', 1)",
+            "rpr_render(case)",
+            "reset_attributes('directionalLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_029",
+        "status": "active",
+        "script_info": [
+            "Set intensity 1000"
+        ],
+        "scene": "directlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('directionalLightShape1.intensity', 1000)",
+            "rpr_render(case)",
+            "reset_attributes('directionalLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_030",
+        "status": "active",
+        "script_info": [
+            "Set intensity 5000"
+        ],
+        "scene": "directlightUSD.ma",
+        "functions": [
+            "cmds.setAttr('directionalLightShape1.intensity', 5000)",
+            "rpr_render(case)",
+            "reset_attributes('directionalLightShape1')"
+        ]
+    }
+]
