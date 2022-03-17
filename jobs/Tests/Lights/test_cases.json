@@ -241,11 +241,11 @@
         "case": "Maya_USD_LT_019",
         "status": "active",
         "script_info": [
-            "Set color Red",
-            "Black image expected"
+            "Set color Red"
         ],
         "scene": "pointlightUSD.ma",
         "functions": [
+            "cmds.setAttr('pointLightShape1.intensity', 5000)",
             "cmds.setAttr('pointLightShape1.color', 1, 0, 0, type='double3')",
             "rpr_render(case)",
             "reset_attributes('pointLightShape1')"
