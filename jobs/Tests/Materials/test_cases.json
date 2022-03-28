@@ -5,7 +5,7 @@
         "script_info": [
             ""
         ],
-        "scene": "Blin_Material.ma",
+        "scene": "Kitchen.ma",
         "functions": [
             "rpr_render(case)"
         ]
