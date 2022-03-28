@@ -1,12 +1,28 @@
 {
     "weights": [
         {
-            "suite_name": "Smoke",
-            "value": 3299
+            "suite_name": "Render_Settings",
+            "value": 701
+        },
+        {
+            "suite_name": "Camera",
+            "value": 493
         },
         {
             "suite_name": "Viewport",
-            "value": 3777
+            "value": 239
+        },
+        {
+            "suite_name": "Render_Modes",
+            "value": 142
+        },
+        {
+            "suite_name": "Materials",
+            "value": 41
+        },
+        {
+            "suite_name": "Animation",
+            "value": 40
         }
     ]
 }
