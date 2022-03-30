@@ -1,7 +1,7 @@
 [
     {
         "case": "MAYA_USD_SM_001",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Car Clipper"
         ],
@@ -34,7 +34,7 @@
     },
     {
         "case": "MAYA_USD_SM_004",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "MClaren"
         ],
@@ -133,7 +133,7 @@
     },
     {
         "case": "MAYA_USD_SM_013",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Pine"
         ],
@@ -144,7 +144,7 @@
     },
     {
         "case": "MAYA_USD_SM_014",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Denoiser Spheres"
         ],
@@ -156,7 +156,7 @@
     },
     {
         "case": "MAYA_USD_SM_015",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "GeometrySubsetMotionBlur"
         ],

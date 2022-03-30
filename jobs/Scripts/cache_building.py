@@ -24,20 +24,18 @@ def main():
 
     try:
         print("[INFO] Preparing configurations for rendering...")
-        cmds.setAttr('defaultRenderGlobals.currentRenderer', type='string' 'rprUsdRender')
+        cmds.setAttr('defaultRenderGlobals.currentRenderer', 'rprUsdRender', type='string')
         
         engine = os.getenv('ENGINE', 'Northstar')
-        if engine == 'Tahoe':
-            cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality', 4)
-        elif engine == 'Northstar':
+        if engine == 'Northstar':
             cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality', 5)
-        elif engine == 'Hybrid_Low':
+        elif engine == 'HybridLow':
             cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 0)
-        elif engine == 'Hybrid_Medium':
+        elif engine == 'HybridMedium':
             cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 1)
-        elif engine == 'Hybrid_High':
+        elif engine == 'HybridHigh':
             cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 2)
-        elif engine == 'Hybrid_Pro':
+        elif engine == 'HybridPro':
             cmds.setAttr("defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_core_mtohns_renderQuality", 3)
             
         print("[INFO] Current render engine: {}.".format(engine))

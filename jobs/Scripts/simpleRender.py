@@ -478,12 +478,14 @@ def main(args, error_windows):
     baseline_dir = 'usd_maya_autotests_baselines'
     if args.engine == 'Northstar':
         baseline_dir = baseline_dir + '-NorthStar'
-    elif args.engine == 'Hybrid_Low':
+    elif args.engine == 'HybridLow':
         baseline_dir = baseline_dir + '-HybridLow'
-    elif args.engine == 'Hybrid_Medium':
+    elif args.engine == 'HybridMedium':
         baseline_dir = baseline_dir + '-HybridMedium'
-    elif args.engine == 'Hybrid_High':
+    elif args.engine == 'HybridHigh':
         baseline_dir = baseline_dir + '-HybridHigh'
+    elif args.engine == 'HybridPro':
+        baseline_dir = baseline_dir + '-HybridPro'
 
     if system_pl == "Windows":
         baseline_path_tr = os.path.join(
