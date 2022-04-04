@@ -1,0 +1,26 @@
+[
+    {
+        "case": "MAYA_USD_DN_001",
+        "status": "active",
+        "script_info": [
+            "Render mode Global illumination"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "setup_denoiser()",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_DN_002",
+        "status": "active",
+        "script_info": [
+            "Render mode Direct illumination"
+        ],
+        "scene": "Kitchen.ma",
+        "functions": [
+            "setup_denoiser()",
+            "rpr_render(case)"
+        ]
+    }
+]

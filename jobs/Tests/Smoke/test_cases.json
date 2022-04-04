@@ -1,10 +1,9 @@
 [
     {
         "case": "MAYA_USD_SM_001",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
-            "Quality Northstar",
-            "Black image expected"
+            "Car Clipper"
         ],
         "scene": "CarClipperUSD.ma",
         "functions": [
@@ -15,7 +14,7 @@
         "case": "MAYA_USD_SM_002",
         "status": "active",
         "script_info": [
-            "Quality Northstar"
+            "Jet"
         ],
         "scene": "Jet.mb",
         "functions": [
@@ -26,7 +25,7 @@
         "case": "MAYA_USD_SM_003",
         "status": "active",
         "script_info": [
-            "Quality Northstar"
+            "Kitchen"
         ],
         "scene": "Kitchen.ma",
         "functions": [
@@ -37,12 +36,166 @@
         "case": "MAYA_USD_SM_004",
         "status": "skipped",
         "script_info": [
-            "Quality Northstar"
+            "MClaren"
         ],
         "scene": "Mclaren.ma",
         "functions": [
             "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_005",
+        "status": "active",
+        "script_info": [
+            "Toon"
         ],
-        "jira_issue": "https://amdrender.atlassian.net/browse/MAYAUS-21"
+        "scene": "Toon.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_006",
+        "status": "active",
+        "script_info": [
+            "Points"
+        ],
+        "scene": "Points.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_007",
+        "status": "active",
+        "script_info": [
+            "Motion Blur Shaderball"
+        ],
+        "scene": "MotionBlurShaderball.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_008",
+        "status": "active",
+        "script_info": [
+            "Image Import"
+        ],
+        "scene": "ImageImport.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_009",
+        "status": "active",
+        "script_info": [
+            "MaterialX"
+        ],
+        "scene": "MaterialX.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_010",
+        "status": "active",
+        "script_info": [
+            "Many Instances"
+        ],
+        "scene": "ManyInstances.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_011",
+        "status": "active",
+        "script_info": [
+            "Instances"
+        ],
+        "scene": "Instances.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_012",
+        "status": "active",
+        "script_info": [
+            "Cup Set"
+        ],
+        "scene": "CupSet.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_013",
+        "status": "skipped",
+        "script_info": [
+            "Pine"
+        ],
+        "scene": "Pine.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_014",
+        "status": "skipped",
+        "script_info": [
+            "Denoiser Spheres"
+        ],
+        "scene": "DenoiserSpheres.ma",
+        "functions": [
+            "cmds.setAttr('defaultRenderGlobals.HdRprPlugin_Prod___rpr_mtohns_denoising_mtohns_enable', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_015",
+        "status": "skipped",
+        "script_info": [
+            "GeometrySubsetMotionBlur"
+        ],
+        "scene": "GeometrySubsetMotionBlur.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_016",
+        "status": "active",
+        "script_info": [
+            "Deformation Motion Blur"
+        ],
+        "scene": "DeformationMotionBlur.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_017",
+        "status": "active",
+        "script_info": [
+            "Spheres"
+        ],
+        "scene": "Spheres.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_018",
+        "status": "active",
+        "script_info": [
+            "Characters"
+        ],
+        "scene": "Characters.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
     }
 ]
