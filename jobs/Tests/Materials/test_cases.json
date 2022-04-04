@@ -3,7 +3,19 @@
         "case": "MAYA_USD_MT_001",
         "status": "active",
         "script_info": [
-            ""
+            "Diffuse",
+            "Transparency",
+            "Ambient Color",
+            "Incadescence",
+            "Transluence",
+            "Transluence Depth",
+            "Transluence Focus",
+            "Eccentricity",
+            "Specular Roll off",
+            "Specular Color",
+            "Reflectivity",
+            "Reflected Color",
+            "Values 0 - 1 ; Step 0.1"
         ],
         "scene": "Kitchen.ma",
         "functions": [
@@ -14,7 +26,18 @@
         "case": "MAYA_USD_MT_002",
         "status": "active",
         "script_info": [
-            ""
+            "Color",
+            "Transparency",
+            "Ambient Color",
+            "Incandescence",
+            "Diffuse",
+            "Specular Color",
+            "Cosine Power",
+            "Reflectivity",
+            "Refractive Index",
+            "Refraction Limit",
+            "Reflection Limit",
+            "Values 0 - 1 ; Step 0.1"
         ],
         "scene": "Phong.ma",
         "functions": [
@@ -25,7 +48,12 @@
         "case": "MAYA_USD_MT_003",
         "status": "active",
         "script_info": [
-            ""
+            "Diffuse",
+            "Transparency",
+            "Ambient Color",
+            "Incadescence",
+            "Transluence",
+            "Values 0 - 1 ; Step 0.1"
         ],
         "scene": "Lambert_Material.ma",
         "functions": [
@@ -36,7 +64,18 @@
         "case": "MAYA_USD_MT_004",
         "status": "active",
         "script_info": [
-            ""
+            "Diffuse Color",
+            "Emissive Color",
+            "Occlusion",
+            "Opacity",
+            "Opacity Threshold",
+            "Ior",
+            "Metallic",
+            "Roughness",
+            "Specular Color",
+            "Clearcoat",
+            "Clearcoat Roughness",
+            "Values 0 - 1 ; Step 0.1"
         ],
         "scene": "USD_Material.ma",
         "functions": [
