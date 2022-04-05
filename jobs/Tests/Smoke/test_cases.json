@@ -1,7 +1,7 @@
 [
     {
         "case": "MAYA_USD_SM_001",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Car Clipper"
         ],
