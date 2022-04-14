@@ -814,7 +814,7 @@
     },
     {
         "case": "Maya_USD_LT_065",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot Light",
             "Color - Yellow"
@@ -826,7 +826,7 @@
     },
     {
         "case": "Maya_USD_LT_066",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot light",
             "Color - Yellow"
@@ -838,7 +838,7 @@
     },
     {
         "case": "Maya_USD_LT_067",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot light",
             "Cone Angle - 40"
@@ -850,7 +850,7 @@
     },
     {
         "case": "Maya_USD_LT_068",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot light",
             "Cone Angle - 90"
@@ -862,7 +862,7 @@
     },
     {
         "case": "Maya_USD_LT_069",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot light",
             "Cone Angle - 40",
@@ -875,7 +875,7 @@
     },
     {
         "case": "Maya_USD_LT_070",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot light",
             "Cone Angle - 40",
@@ -888,7 +888,7 @@
     },
     {
         "case": "Maya_USD_LT_071",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot light",
             "Intensity - 2000",
@@ -901,7 +901,7 @@
     },
     {
         "case": "Maya_USD_LT_072",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot light",
             "Intensity - 2000",
@@ -914,7 +914,7 @@
     },
     {
         "case": "Maya_USD_LT_073",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot light",
             "Intensity - 5000",
@@ -927,7 +927,7 @@
     },
     {
         "case": "Maya_USD_LT_074",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot light",
             "Temperature - 0"
@@ -939,7 +939,7 @@
     },
     {
         "case": "Maya_USD_LT_075",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot light",
             "Temperature - 5000"
@@ -951,7 +951,7 @@
     },
     {
         "case": "Maya_USD_LT_076",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Spot light",
             "Temperature - 10000"
