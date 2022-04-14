@@ -802,7 +802,7 @@
     },
     {
         "case": "Maya_USD_LT_064",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Point Light",
             "Temperature 10000"
