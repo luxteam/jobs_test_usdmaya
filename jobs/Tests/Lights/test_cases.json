@@ -81,7 +81,7 @@
 
     {
         "case": "Maya_USD_LT_007",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set color Red"
         ],
@@ -94,7 +94,7 @@
     },
     {
         "case": "Maya_USD_LT_008",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set color White"
         ],
@@ -107,7 +107,7 @@
     },
     {
         "case": "Maya_USD_LT_009",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set color Bed"
         ],
@@ -120,7 +120,7 @@
     },
     {
         "case": "Maya_USD_LT_010",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set intensity 1",
             "Black image expected"
@@ -134,7 +134,7 @@
     },
     {
         "case": "Maya_USD_LT_011",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set intensity 1000"
         ],
@@ -147,7 +147,7 @@
     },
     {
         "case": "Maya_USD_LT_012",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set intensity 5000"
         ],
@@ -160,7 +160,7 @@
     },
     {
         "case": "Maya_USD_LT_013",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "set cone angle 40"
         ],
@@ -173,7 +173,7 @@
     },
     {
         "case": "Maya_USD_LT_014",
-        "status": "active",
+        "status": "skippedskipped",
         "script_info": [
             "set cone angle 100"
         ],
@@ -186,7 +186,7 @@
     },
     {
         "case": "Maya_USD_LT_015",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "set penumbra angle 0"
         ],
@@ -199,7 +199,7 @@
     },
     {
         "case": "Maya_USD_LT_016",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set penumbra angle 10"
         ],
@@ -212,7 +212,7 @@
     },
     {
         "case": "Maya_USD_LT_017",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set drop off 0"
         ],
@@ -225,7 +225,7 @@
     },
     {
         "case": "Maya_USD_LT_018",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set drop off 10"
         ],
