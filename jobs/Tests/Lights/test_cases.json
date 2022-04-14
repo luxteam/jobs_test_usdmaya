@@ -790,7 +790,7 @@
     },
     {
         "case": "Maya_USD_LT_063",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Point Light",
             "Temperature 5000"
