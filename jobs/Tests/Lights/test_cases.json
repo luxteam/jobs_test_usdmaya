@@ -814,10 +814,11 @@
     },
     {
         "case": "Maya_USD_LT_065",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot Light",
-            "Color - Yellow"
+            "Color - Yellow",
+            "Black image expected"
         ],
         "scene": "Spot_ColorRed.ma",
         "functions": [
@@ -826,10 +827,11 @@
     },
     {
         "case": "Maya_USD_LT_066",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot light",
-            "Color - Yellow"
+            "Color - Yellow",
+            "Black image expected"
         ],
         "scene": "Spot_ColorYellow.ma",
         "functions": [
@@ -838,10 +840,11 @@
     },
     {
         "case": "Maya_USD_LT_067",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot light",
-            "Cone Angle - 40"
+            "Cone Angle - 40",
+            "Black image expected"
         ],
         "scene": "Spot_ConeAngle40.ma",
         "functions": [
@@ -850,10 +853,11 @@
     },
     {
         "case": "Maya_USD_LT_068",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot light",
-            "Cone Angle - 90"
+            "Cone Angle - 90",
+            "Black image expected"
         ],
         "scene": "Spot_ConeAngle90.ma",
         "functions": [
@@ -862,11 +866,12 @@
     },
     {
         "case": "Maya_USD_LT_069",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot light",
             "Cone Angle - 40",
-            "Softness - 0.5"
+            "Softness - 0.5",
+            "Black image expected"
         ],
         "scene": "Spot_ConeAngle40_Softness0.5.ma",
         "functions": [
@@ -875,11 +880,12 @@
     },
     {
         "case": "Maya_USD_LT_070",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot light",
             "Cone Angle - 40",
-            "Softness - 1"
+            "Softness - 1",
+            "Black image expected"
         ],
         "scene": "Spot_ConeAngle40_Softness1.ma",
         "functions": [
@@ -888,11 +894,12 @@
     },
     {
         "case": "Maya_USD_LT_071",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot light",
             "Intensity - 2000",
-            "Exposure - 2"
+            "Exposure - 2",
+            "Black image expected"
         ],
         "scene": "Spot_Int2000_Exp2.ma",
         "functions": [
@@ -901,11 +908,12 @@
     },
     {
         "case": "Maya_USD_LT_072",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot light",
             "Intensity - 2000",
-            "Exposure - 4"
+            "Exposure - 4",
+            "Black image expected"
         ],
         "scene": "Spot_Int2000_Exp4.ma",
         "functions": [
@@ -914,11 +922,12 @@
     },
     {
         "case": "Maya_USD_LT_073",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot light",
             "Intensity - 5000",
-            "Exposure - 2"
+            "Exposure - 2",
+            "Black image expected"
         ],
         "scene": "Spot_Int5000_Exp2.ma",
         "functions": [
@@ -927,10 +936,11 @@
     },
     {
         "case": "Maya_USD_LT_074",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot light",
-            "Temperature - 0"
+            "Temperature - 0",
+            "Black image expected"
         ],
         "scene": "Spot_Temperature0.ma",
         "functions": [
@@ -939,10 +949,11 @@
     },
     {
         "case": "Maya_USD_LT_075",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot light",
-            "Temperature - 5000"
+            "Temperature - 5000",
+            "Black image expected"
         ],
         "scene": "Spot_Temperature5000.ma",
         "functions": [
@@ -951,10 +962,11 @@
     },
     {
         "case": "Maya_USD_LT_076",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spot light",
-            "Temperature - 10000"
+            "Temperature - 10000",
+            "Black image expected"
         ],
         "scene": "Spot_Temperature10000.ma",
         "functions": [
