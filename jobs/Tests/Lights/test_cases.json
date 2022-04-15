@@ -173,7 +173,7 @@
     },
     {
         "case": "Maya_USD_LT_014",
-        "status": "skippedskipped",
+        "status": "skipped",
         "script_info": [
             "set cone angle 100"
         ],
