@@ -5,7 +5,7 @@
         "script_info": [
             "Set color Red"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.color', 1, 0, 0, type='double3')",
             "rpr_render(case)",
@@ -18,7 +18,7 @@
         "script_info": [
             "Set color White"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
@@ -31,7 +31,7 @@
         "script_info": [
             "Set color Bed"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
@@ -45,7 +45,7 @@
             "Set intensity 1",
             "Black image expected"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.intensity', 1)",
             "rpr_render(case)",
@@ -58,7 +58,7 @@
         "script_info": [
             "Set intensity 1000"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.intensity', 1000)",
             "rpr_render(case)",
@@ -71,7 +71,7 @@
         "script_info": [
             "Set intensity 5000"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.intensity', 5000)",
             "rpr_render(case)",
@@ -85,7 +85,7 @@
         "script_info": [
             "Set color Red"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.color', 1, 0, 0, type='double3')",
             "rpr_render(case)",
@@ -98,7 +98,7 @@
         "script_info": [
             "Set color White"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
@@ -111,7 +111,7 @@
         "script_info": [
             "Set color Bed"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
@@ -125,7 +125,7 @@
             "Set intensity 1",
             "Black image expected"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.intensity', 1)",
             "rpr_render(case)",
@@ -138,7 +138,7 @@
         "script_info": [
             "Set intensity 1000"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.intensity', 1000)",
             "rpr_render(case)",
@@ -151,7 +151,7 @@
         "script_info": [
             "Set intensity 5000"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.intensity', 5000)",
             "rpr_render(case)",
@@ -164,7 +164,7 @@
         "script_info": [
             "set cone angle 40"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.coneAngle', 40)",
             "rpr_render(case)",
@@ -177,7 +177,7 @@
         "script_info": [
             "set cone angle 100"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.coneAngle', 100)",
             "rpr_render(case)",
@@ -190,7 +190,7 @@
         "script_info": [
             "set penumbra angle 0"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.penumbraAngle', 0)",
             "rpr_render(case)",
@@ -203,7 +203,7 @@
         "script_info": [
             "Set penumbra angle 10"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.penumbraAngle', 10)",
             "rpr_render(case)",
@@ -216,7 +216,7 @@
         "script_info": [
             "Set drop off 0"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.dropoff', 0)",
             "rpr_render(case)",
@@ -229,7 +229,7 @@
         "script_info": [
             "Set drop off 10"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.dropoff', 10)",
             "rpr_render(case)",
@@ -243,7 +243,7 @@
         "script_info": [
             "Set color Red"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.intensity', 5000)",
             "cmds.setAttr('pointLightShape1.color', 1, 0, 0, type='double3')",
@@ -257,7 +257,7 @@
         "script_info": [
             "Set color White"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
@@ -270,7 +270,7 @@
         "script_info": [
             "Set color Bed"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
@@ -284,7 +284,7 @@
             "Set intensity 1",
             "Black image expected"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.intensity', 1)",
             "rpr_render(case)",
@@ -297,7 +297,7 @@
         "script_info": [
             "Set intensity 1000"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.intensity', 1000)",
             "rpr_render(case)",
@@ -310,7 +310,7 @@
         "script_info": [
             "Set intensity 5000"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.intensity', 5000)",
             "rpr_render(case)",
@@ -324,7 +324,7 @@
         "script_info": [
             "Set color Red"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.color', 1, 0, 0, type='double3')",
             "rpr_render(case)",
@@ -337,7 +337,7 @@
         "script_info": [
             "Set color White"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
@@ -350,7 +350,7 @@
         "script_info": [
             "Set color Bed"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
@@ -363,7 +363,7 @@
         "script_info": [
             "Set intensity 1"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.intensity', 1)",
             "rpr_render(case)",
@@ -376,7 +376,7 @@
         "script_info": [
             "Set intensity 1000"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.intensity', 1000)",
             "rpr_render(case)",
@@ -389,7 +389,7 @@
         "script_info": [
             "Set intensity 5000"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.intensity', 5000)",
             "rpr_render(case)",
