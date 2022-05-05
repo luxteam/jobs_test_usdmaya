@@ -1,7 +1,7 @@
 [
     {
         "case": "MAYA_USD_SM_001",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Car Clipper"
         ],
@@ -194,6 +194,94 @@
             "Characters"
         ],
         "scene": "Characters.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_019",
+        "status": "active",
+        "script_info": [
+            ""
+        ],
+        "scene": "AreaLightUSD.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_020",
+        "status": "active",
+        "script_info": [
+            ""
+        ],
+        "scene": "DirectLightUSD.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_020",
+        "status": "active",
+        "script_info": [
+            ""
+        ],
+        "scene": "PointLightUSD.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_020",
+        "status": "active",
+        "script_info": [
+            ""
+        ],
+        "scene": "SpotLightUSD.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_020",
+        "status": "active",
+        "script_info": [
+            ""
+        ],
+        "scene": "IBLLightUSD.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_020",
+        "status": "active",
+        "script_info": [
+            ""
+        ],
+        "scene": "Austin.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_020",
+        "status": "active",
+        "script_info": [
+            ""
+        ],
+        "scene": ".ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_SM_020",
+        "status": "active",
+        "script_info": [
+            ""
+        ],
+        "scene": ".ma",
         "functions": [
             "rpr_render(case)"
         ]

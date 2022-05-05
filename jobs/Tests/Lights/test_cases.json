@@ -5,7 +5,7 @@
         "script_info": [
             "Set color Red"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.color', 1, 0, 0, type='double3')",
             "rpr_render(case)",
@@ -18,7 +18,7 @@
         "script_info": [
             "Set color White"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
@@ -31,7 +31,7 @@
         "script_info": [
             "Set color Bed"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
@@ -45,7 +45,7 @@
             "Set intensity 1",
             "Black image expected"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.intensity', 1)",
             "rpr_render(case)",
@@ -58,7 +58,7 @@
         "script_info": [
             "Set intensity 1000"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.intensity', 1000)",
             "rpr_render(case)",
@@ -71,7 +71,7 @@
         "script_info": [
             "Set intensity 5000"
         ],
-        "scene": "AreaLightUSD.ma",
+        "scene": "AreaLight.ma",
         "functions": [
             "cmds.setAttr('areaLightShape1.intensity', 5000)",
             "rpr_render(case)",
@@ -81,11 +81,11 @@
 
     {
         "case": "Maya_USD_LT_007",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set color Red"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.color', 1, 0, 0, type='double3')",
             "rpr_render(case)",
@@ -94,11 +94,11 @@
     },
     {
         "case": "Maya_USD_LT_008",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set color White"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
@@ -107,11 +107,11 @@
     },
     {
         "case": "Maya_USD_LT_009",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set color Bed"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
@@ -120,12 +120,12 @@
     },
     {
         "case": "Maya_USD_LT_010",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set intensity 1",
             "Black image expected"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.intensity', 1)",
             "rpr_render(case)",
@@ -134,11 +134,11 @@
     },
     {
         "case": "Maya_USD_LT_011",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set intensity 1000"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.intensity', 1000)",
             "rpr_render(case)",
@@ -147,11 +147,11 @@
     },
     {
         "case": "Maya_USD_LT_012",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set intensity 5000"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.intensity', 5000)",
             "rpr_render(case)",
@@ -160,11 +160,11 @@
     },
     {
         "case": "Maya_USD_LT_013",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "set cone angle 40"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.coneAngle', 40)",
             "rpr_render(case)",
@@ -173,11 +173,11 @@
     },
     {
         "case": "Maya_USD_LT_014",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "set cone angle 100"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.coneAngle', 100)",
             "rpr_render(case)",
@@ -186,11 +186,11 @@
     },
     {
         "case": "Maya_USD_LT_015",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "set penumbra angle 0"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.penumbraAngle', 0)",
             "rpr_render(case)",
@@ -199,11 +199,11 @@
     },
     {
         "case": "Maya_USD_LT_016",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set penumbra angle 10"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.penumbraAngle', 10)",
             "rpr_render(case)",
@@ -212,11 +212,11 @@
     },
     {
         "case": "Maya_USD_LT_017",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set drop off 0"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.dropoff', 0)",
             "rpr_render(case)",
@@ -225,11 +225,11 @@
     },
     {
         "case": "Maya_USD_LT_018",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set drop off 10"
         ],
-        "scene": "SpotlightUSD.ma",
+        "scene": "SpotLight.ma",
         "functions": [
             "cmds.setAttr('spotLightShape1.dropoff', 10)",
             "rpr_render(case)",
@@ -239,11 +239,11 @@
 
     {
         "case": "Maya_USD_LT_019",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set color Red"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.intensity', 5000)",
             "cmds.setAttr('pointLightShape1.color', 1, 0, 0, type='double3')",
@@ -253,11 +253,11 @@
     },
     {
         "case": "Maya_USD_LT_020",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set color White"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
@@ -266,11 +266,11 @@
     },
     {
         "case": "Maya_USD_LT_021",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set color Bed"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
@@ -279,12 +279,12 @@
     },
     {
         "case": "Maya_USD_LT_022",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set intensity 1",
             "Black image expected"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.intensity', 1)",
             "rpr_render(case)",
@@ -293,11 +293,11 @@
     },
     {
         "case": "Maya_USD_LT_023",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set intensity 1000"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.intensity', 1000)",
             "rpr_render(case)",
@@ -306,11 +306,11 @@
     },
     {
         "case": "Maya_USD_LT_024",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Set intensity 5000"
         ],
-        "scene": "pointlightUSD.ma",
+        "scene": "PointLight.ma",
         "functions": [
             "cmds.setAttr('pointLightShape1.intensity', 5000)",
             "rpr_render(case)",
@@ -324,7 +324,7 @@
         "script_info": [
             "Set color Red"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.color', 1, 0, 0, type='double3')",
             "rpr_render(case)",
@@ -337,7 +337,7 @@
         "script_info": [
             "Set color White"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.color', 1, 1, 1, type='double3')",
             "rpr_render(case)",
@@ -350,7 +350,7 @@
         "script_info": [
             "Set color Bed"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.color', 0, 0, 1, type='double3')",
             "rpr_render(case)",
@@ -363,7 +363,7 @@
         "script_info": [
             "Set intensity 1"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.intensity', 1)",
             "rpr_render(case)",
@@ -376,7 +376,7 @@
         "script_info": [
             "Set intensity 1000"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.intensity', 1000)",
             "rpr_render(case)",
@@ -389,11 +389,588 @@
         "script_info": [
             "Set intensity 5000"
         ],
-        "scene": "directlightUSD.ma",
+        "scene": "DirectionalLight.ma",
         "functions": [
             "cmds.setAttr('directionalLightShape1.intensity', 5000)",
             "rpr_render(case)",
             "reset_attributes('directionalLightShape1')"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_031",
+        "status": "active",
+        "script_info": [
+            "Area Light",
+            "Color - Red"
+        ],
+        "scene": "Area_ColorRed.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_032",
+        "status": "active",
+        "script_info": [
+            "Area Light",
+            "Color - Yellow"
+        ],
+        "scene": "Area_ColorYellow.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_033",
+        "status": "active",
+        "script_info": [
+            "Area Light",
+            "Intensity - 5000"
+        ],
+        "scene": "Area_Int5000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_034",
+        "status": "active",
+        "script_info": [
+            "Area Light",
+            "Intensity - 10000"
+        ],
+        "scene": "Area_Int10000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_035",
+        "status": "active",
+        "script_info": [
+            "Area Light",
+            "Intensity 5000",
+            "Exposure - 1"
+        ],
+        "scene": "Area_Int5000_Exp1.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_036",
+        "status": "active",
+        "script_info": [
+            "Area Light",
+            "Intensity 5000",
+            "Exposure 2"
+        ],
+        "scene": "Area_Int5000_Exp2.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_037",
+        "status": "active",
+        "script_info": [
+            "Area Light",
+            "Temperature - 0"
+        ],
+        "scene": "Area_Temperature0.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_038",
+        "status": "active",
+        "script_info": [
+            "Area Light",
+            "Temperature - 5000"
+        ],
+        "scene": "Area_Temperature5000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_039",
+        "status": "active",
+        "script_info": [
+            "Area Light",
+            "Temperature 10000"
+        ],
+        "scene": "Area_Temperature10000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_040",
+        "status": "active",
+        "script_info": [
+            "Direct Light",
+            "Color - Red"
+        ],
+        "scene": "Direct_ColorRed.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_041",
+        "status": "active",
+        "script_info": [
+            "Direct Light",
+            "Color - Yellow"
+        ],
+        "scene": "Direct_ColorYellow.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_042",
+        "status": "active",
+        "script_info": [
+            "Direct Light",
+            "Intensity - 5"
+        ],
+        "scene": "Direct_Int5.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_043",
+        "status": "active",
+        "script_info": [
+            "Direct Light",
+            "Intensity - 10"
+        ],
+        "scene": "Direct_Int10.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_044",
+        "status": "active",
+        "script_info": [
+            "Direct Light",
+            "Intensity - 5",
+            "Exposure - 1"
+        ],
+        "scene": "Direct_Int5_Exp1.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_045",
+        "status": "active",
+        "script_info": [
+            "Direct Light",
+            "Intensity - 5",
+            "Exposure - 1"
+        ],
+        "scene": "Direct_Int5_Exp2.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_046",
+        "status": "active",
+        "script_info": [
+            "Direct Light",
+            "Temperature - 0"
+        ],
+        "scene": "Direct_Teperature0.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_047",
+        "status": "active",
+        "script_info": [
+            "Direct Light",
+            "Temperature - 5000"
+        ],
+        "scene": "Direct_Temperature5000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_048",
+        "status": "active",
+        "script_info": [
+            "Direct Light",
+            "Temperature - 10000"
+        ],
+        "scene": "Direct_Temperature10000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_049",
+        "status": "active",
+        "script_info": [
+            "IBL",
+            "Intensity - 1"
+        ],
+        "scene": "IBL_Int1.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_050",
+        "status": "active",
+        "script_info": [
+            "IBL",
+            "Intensity - 5"
+        ],
+        "scene": "IBL_Int5.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_051",
+        "status": "active",
+        "script_info": [
+            "IBL",
+            "Intensity - 1",
+            "Exposure - 1"
+        ],
+        "scene": "IBL_Int1_Exp1.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_052",
+        "status": "active",
+        "script_info": [
+            "IBL",
+            "Intensity - 1",
+            "Exposure - 2"
+        ],
+        "scene": "IBL_Int1_Exp2.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_053",
+        "status": "active",
+        "script_info": [
+            "IBL",
+            "Temperature - 0"
+        ],
+        "scene": "IBL_Temperature0.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_054",
+        "status": "active",
+        "script_info": [
+            "IBL",
+            "Temperature - 5000"
+        ],
+        "scene": "IBL_Temperature5000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_055",
+        "status": "active",
+        "script_info": [
+            "IBL",
+            "Temperature 10000"
+        ],
+        "scene": "IBL_Temperature10000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_056",
+        "status": "skipped",
+        "script_info": [
+            "Point Light",
+            "Color - Red"
+        ],
+        "scene": "Point_ColorRed.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_057",
+        "status": "skipped",
+        "script_info": [
+            "Point Light",
+            "Color - Yellow"
+        ],
+        "scene": "Point_ColorYellow.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_058",
+        "status": "skipped",
+        "script_info": [
+            "Point Light",
+            "Intensity 10000"
+        ],
+        "scene": "Point_Int10000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_059",
+        "status": "skipped",
+        "script_info": [
+            "Point Light",
+            "Intensity 20000"
+        ],
+        "scene": "Point_Int20000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_060",
+        "status": "skipped",
+        "script_info": [
+            "Point Light",
+            "Intensity 10000",
+            "Exposure - 1"
+        ],
+        "scene": "Point_Int10000_Exp1.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_061",
+        "status": "skipped",
+        "script_info": [
+            "Point Light",
+            "Intensity 10000",
+            "Exposure - 2"
+        ],
+        "scene": "Point_Int10000_Exp2.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_062",
+        "status": "skipped",
+        "script_info": [
+            "Point Light",
+            "Temperature 0"
+        ],
+        "scene": "Point_Temperature0.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_063",
+        "status": "skipped",
+        "script_info": [
+            "Point Light",
+            "Temperature 5000"
+        ],
+        "scene": "Point_Temperature5000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_064",
+        "status": "skipped",
+        "script_info": [
+            "Point Light",
+            "Temperature 10000"
+        ],
+        "scene": "Point_Temperature10000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_065",
+        "status": "active",
+        "script_info": [
+            "Spot Light",
+            "Color - Yellow",
+            "Black image expected"
+        ],
+        "scene": "Spot_ColorRed.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_066",
+        "status": "active",
+        "script_info": [
+            "Spot light",
+            "Color - Yellow",
+            "Black image expected"
+        ],
+        "scene": "Spot_ColorYellow.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_067",
+        "status": "active",
+        "script_info": [
+            "Spot light",
+            "Cone Angle - 40",
+            "Black image expected"
+        ],
+        "scene": "Spot_ConeAngle40.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_068",
+        "status": "active",
+        "script_info": [
+            "Spot light",
+            "Cone Angle - 90",
+            "Black image expected"
+        ],
+        "scene": "Spot_ConeAngle90.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_069",
+        "status": "active",
+        "script_info": [
+            "Spot light",
+            "Cone Angle - 40",
+            "Softness - 0.5",
+            "Black image expected"
+        ],
+        "scene": "Spot_ConeAngle40_Softness0.5.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_070",
+        "status": "active",
+        "script_info": [
+            "Spot light",
+            "Cone Angle - 40",
+            "Softness - 1",
+            "Black image expected"
+        ],
+        "scene": "Spot_ConeAngle40_Softness1.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_071",
+        "status": "active",
+        "script_info": [
+            "Spot light",
+            "Intensity - 2000",
+            "Exposure - 2",
+            "Black image expected"
+        ],
+        "scene": "Spot_Int2000_Exp2.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_072",
+        "status": "active",
+        "script_info": [
+            "Spot light",
+            "Intensity - 2000",
+            "Exposure - 4",
+            "Black image expected"
+        ],
+        "scene": "Spot_Int2000_Exp4.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_073",
+        "status": "active",
+        "script_info": [
+            "Spot light",
+            "Intensity - 5000",
+            "Exposure - 2",
+            "Black image expected"
+        ],
+        "scene": "Spot_Int5000_Exp2.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_074",
+        "status": "active",
+        "script_info": [
+            "Spot light",
+            "Temperature - 0",
+            "Black image expected"
+        ],
+        "scene": "Spot_Temperature0.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_075",
+        "status": "active",
+        "script_info": [
+            "Spot light",
+            "Temperature - 5000",
+            "Black image expected"
+        ],
+        "scene": "Spot_Temperature5000.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "Maya_USD_LT_076",
+        "status": "active",
+        "script_info": [
+            "Spot light",
+            "Temperature - 10000",
+            "Black image expected"
+        ],
+        "scene": "Spot_Temperature10000.ma",
+        "functions": [
+            "rpr_render(case)"
         ]
     }
 ]
