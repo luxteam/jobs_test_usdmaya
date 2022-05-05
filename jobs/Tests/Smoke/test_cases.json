@@ -189,7 +189,7 @@
     },
     {
         "case": "MAYA_USD_SM_018",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Characters"
         ],
