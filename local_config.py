@@ -1,4 +1,4 @@
-tool_name = 'maya'
+tool_name = 'maya_usd'
 report_type = 'default'
 show_skipped_groups = True
 tracked_metrics_files_number = 10
