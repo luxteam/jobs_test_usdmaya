@@ -1,0 +1,79 @@
+[
+    {
+        "case": "MAYA_USD_BL_001",
+        "status": "active",
+        "script_info": [
+            "Junk Shop"
+        ],
+        "scene": "JunkShop.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_BL_002",
+        "status": "active",
+        "script_info": [
+            "NonSSS"
+        ],
+        "scene": "NonSSS.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_BL_003",
+        "status": "active",
+        "script_info": [
+            "Camera Complex"
+        ],
+        "scene": "CameraComplex.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_BL_004",
+        "status": "active",
+        "script_info": [
+            "Locomotive"
+        ],
+        "scene": "Locomotiv.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_BL_005",
+        "status": "active",
+        "script_info": [
+            "Matlib Quality"
+        ],
+        "scene": "MatlibQuality.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_BL_006",
+        "status": "active",
+        "script_info": [
+            "Quality"
+        ],
+        "scene": "Quality.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_USD_BL_007",
+        "status": "active",
+        "script_info": [
+            "USD Nodes"
+        ],
+        "scene": "USD_Nodes.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    }
+]
