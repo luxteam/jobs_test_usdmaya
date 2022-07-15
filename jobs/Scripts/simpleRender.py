@@ -143,6 +143,8 @@ def save_report(args, case):
 
     if case['status'] == 'active':
         case['status'] = 'inprogress'
+    elif case['status'] == 'observed':
+        case['status'] = 'inprogress_observed'
 
     if not os.path.exists(os.path.join(work_dir, 'Color')):
         os.makedirs(os.path.join(work_dir, 'Color'))
@@ -151,7 +153,7 @@ def save_report(args, case):
     src = os.path.join(work_dir, '..', '..', '..',
                         '..', 'jobs_launcher', 'common', 'img')
 
-    if case['status'] == 'inprogress':
+    if case['status'] == 'inprogress' or case['status'] == 'inprogress_observed':
         copyfile(os.path.join(src, 'passed.jpg'), dest)
     elif case['status'] != 'skipped':
         copyfile(
@@ -166,6 +168,10 @@ def save_report(args, case):
     if case['status'] == 'inprogress':
         case['status'] = 'done'
         report['test_status'] = 'passed'
+        report['group_timeout_exceeded'] = False
+    elif case['status'] == 'inprogress_observed':
+        case['status'] = 'done'
+        report['test_status'] = 'observed'
         report['group_timeout_exceeded'] = False
     else:
         report['test_status'] = case['status']
@@ -371,7 +377,7 @@ def get_batch_render_cmds(args, cases, work_dir, res_path, required_tool):
 
     for case in cases:
         case_num += 1
-        if case['status'] in ['active', 'fail', 'skipped']:
+        if case['status'] in ['active', 'observed', 'fail', 'skipped']:
             
             if case['status'] == 'skipped' or case['functions'][0] == 'check_test_cases_success_save':
                 save_report(args, case)
@@ -511,6 +517,9 @@ def main(args, error_windows):
         if case['status'] != 'done' and case['status'] != 'error':
             if case['status'] == 'inprogress':
                 case['status'] = 'active'
+                case['number_of_tries'] = case.get('number_of_tries', 0) + 1
+            elif case['status'] == 'inprogress_observed':
+                case['status'] = 'active_observed'
                 case['number_of_tries'] = case.get('number_of_tries', 0) + 1
 
             template = core_config.RENDER_REPORT_BASE.copy()
@@ -739,19 +748,19 @@ if __name__ == '__main__':
 
         last_error_case = None
         for case in cases:
-            if case['status'] in ['fail', 'error', 'inprogress']:
+            if case['status'] in ['fail', 'error', 'inprogress', 'inprogress_observed']:
                 current_error_count += 1
                 if args.error_count == current_error_count:
                     group_failed(args, error_windows)
             else:
                 current_error_count = 0
 
-            if case['status'] in ['active', 'fail', 'inprogress']:
+            if case['status'] in ['active', 'observed', 'fail', 'inprogress', 'inprogress_observed']:
                 active_cases += 1
 
             path_to_file = os.path.join(args.output, case['case'] + '_RPR.json')
 
-            if case['status'] == 'inprogress':
+            if case['status'] == 'inprogress' or case['status'] == 'inprogress_observed':
                 last_error_case = case
 
         if last_error_case and error_windows:

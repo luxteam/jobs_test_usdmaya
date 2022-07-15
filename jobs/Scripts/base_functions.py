@@ -46,6 +46,11 @@ def reportToJSON(case, render_time=0):
             case['status'] = 'done'
         report['test_status'] = 'passed'
         report['group_timeout_exceeded'] = False
+    elif case['status'] == 'inprogress_observed':
+        if BATCH_RENDER:
+            case['status'] = 'done'
+        report['test_status'] = 'observed'
+        report['group_timeout_exceeded'] = False
 
     logging('Create report json ({{}} {{}})'.format(
             case['case'], report['test_status']), case['case'])
@@ -282,7 +287,7 @@ def save_report(case):
 
     # image for Athena suite will be set later
     if TEST_TYPE not in ['Athena']:
-        if case['status'] == 'inprogress':
+        if case['status'] == 'inprogress' or case['status'] == 'observed':
             copyfile(path.join(source_dir, 'passed.jpg'), work_dir)
         elif case['status'] != 'skipped':
             copyfile(
@@ -336,12 +341,14 @@ def main(case_num=None):
         cases = json.load(json_file)
 
     event('Open tool', False, next(
-        case['case'] for case in cases if case['status'] in ['active', 'fail', 'skipped']))
+        case['case'] for case in cases if case['status'] in ['active', 'observed', 'fail', 'skipped']))
     if not BATCH_RENDER:
         for case in cases:
-            if case['status'] in ['active', 'fail', 'skipped']:
+            if case['status'] in ['active', 'observed', 'fail', 'skipped']:
                 if case['status'] == 'active':
                     case['status'] = 'inprogress'
+                elif case['status'] == 'observed':
+                    case['status'] = 'inprogress_observed'
 
                 with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
                     json.dump(cases, file, indent=4)
@@ -361,7 +368,7 @@ def main(case_num=None):
                 case['case_end_time'] = str(case_end_time)
                 case['time_taken'] = (case_end_time - case_start_time).total_seconds()
 
-                if case['status'] == 'inprogress':
+                if case['status'] == 'inprogress' or case['status'] == 'inprogress_observed':
                     case['status'] = 'done'
                     logging(case['case'] + ' done')
                 
@@ -377,6 +384,8 @@ def main(case_num=None):
 
         if case['status'] == 'active':
             case['status'] = 'inprogress'
+        elif case['status'] == 'observed':
+            case['status'] = 'inprogress_observed'
 
         case['case_start_time'] = str(datetime.datetime.now())
         case['number_of_tries'] = case.get('number_of_tries', 0) + 1
