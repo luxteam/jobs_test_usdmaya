@@ -519,7 +519,7 @@ def main(args, error_windows):
                 case['status'] = 'active'
                 case['number_of_tries'] = case.get('number_of_tries', 0) + 1
             elif case['status'] == 'inprogress_observed':
-                case['status'] = 'active_observed'
+                case['status'] = 'observed'
                 case['number_of_tries'] = case.get('number_of_tries', 0) + 1
 
             template = core_config.RENDER_REPORT_BASE.copy()
