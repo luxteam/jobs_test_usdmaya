@@ -3,7 +3,11 @@ import os
 import json
 import datetime
 import glob
+import sys
 
+sys.path.append(os.path.abspath(os.path.join(
+    os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
+from jobs_launcher.common.scripts.utils import search_keywords_in_file
 
 errors = [
     {'error': 'rprCachingShadersWarningWindow',
@@ -129,6 +133,29 @@ def performance_count(work_dir):
             {'name': event_name, 'time': events_summary[event_name]})
     return time_diffs, time_diffs_summary
 
+# function which scanning logs for keywords
+def scan_log(work_dir):
+    total_warnings = 0
+    with open(os.path.realpath(os.path.join(os.path.dirname(
+        __file__), '..', 'HighlightedErrors.json'))) as file_with_keywords:
+        all_keywords = json.load(file_with_keywords)
+
+    with open(os.path.join(work_dir, 'report_compare.json'), 'r') as report_compare_file:
+        cases = json.load(report_compare_file)
+
+    for case in cases:
+        if case["render_log"]:
+            lines_with_keyword, keywords_match_nb = search_keywords_in_file(os.path.join(work_dir, case["render_log"]), all_keywords)
+            warnings_counter = len(lines_with_keyword)
+        else:
+            warnings_counter = 0
+        if warnings_counter > 0:
+            total_warnings += warnings_counter
+            case["found_in_logs"] = keywords_match_nb
+
+    cases[0]["total_warnings"] = total_warnings
+    with open(os.path.join(work_dir, 'report_compare.json'), 'w') as report_compare_file:
+        json.dump(cases, report_compare_file, indent=4)
 
 def main(args):
     work_dir = os.path.abspath(args.output)  # .replace('\\', '/')
@@ -141,6 +168,7 @@ def main(args):
     with open(os.path.realpath(os.path.join(work_dir, '..', os.path.basename(work_dir) + '_performance_ums.json')), 'w') as f:
         json.dump(time_diffs_summary, f)
 
+    scan_log(work_dir)
 
 if __name__ == '__main__':
     args = createArgsParser().parse_args()
