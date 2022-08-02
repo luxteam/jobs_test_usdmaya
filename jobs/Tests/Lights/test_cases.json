@@ -81,7 +81,7 @@
 
     {
         "case": "Maya_USD_LT_007",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set color Red"
         ],
@@ -94,7 +94,7 @@
     },
     {
         "case": "Maya_USD_LT_008",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set color White"
         ],
@@ -107,7 +107,7 @@
     },
     {
         "case": "Maya_USD_LT_009",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set color Bed"
         ],
@@ -120,7 +120,7 @@
     },
     {
         "case": "Maya_USD_LT_010",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set intensity 1",
             "Black image expected"
@@ -134,7 +134,7 @@
     },
     {
         "case": "Maya_USD_LT_011",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set intensity 1000"
         ],
@@ -147,7 +147,7 @@
     },
     {
         "case": "Maya_USD_LT_012",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set intensity 5000"
         ],
@@ -160,7 +160,7 @@
     },
     {
         "case": "Maya_USD_LT_013",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "set cone angle 40"
         ],
@@ -173,7 +173,7 @@
     },
     {
         "case": "Maya_USD_LT_014",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "set cone angle 100"
         ],
@@ -186,7 +186,7 @@
     },
     {
         "case": "Maya_USD_LT_015",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "set penumbra angle 0"
         ],
@@ -199,7 +199,7 @@
     },
     {
         "case": "Maya_USD_LT_016",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set penumbra angle 10"
         ],
@@ -212,7 +212,7 @@
     },
     {
         "case": "Maya_USD_LT_017",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set drop off 0"
         ],
@@ -225,7 +225,7 @@
     },
     {
         "case": "Maya_USD_LT_018",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set drop off 10"
         ],
@@ -239,7 +239,7 @@
 
     {
         "case": "Maya_USD_LT_019",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set color Red"
         ],
@@ -253,7 +253,7 @@
     },
     {
         "case": "Maya_USD_LT_020",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set color White"
         ],
@@ -266,7 +266,7 @@
     },
     {
         "case": "Maya_USD_LT_021",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set color Bed"
         ],
@@ -279,7 +279,7 @@
     },
     {
         "case": "Maya_USD_LT_022",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set intensity 1",
             "Black image expected"
@@ -293,7 +293,7 @@
     },
     {
         "case": "Maya_USD_LT_023",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set intensity 1000"
         ],
@@ -306,7 +306,7 @@
     },
     {
         "case": "Maya_USD_LT_024",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Set intensity 5000"
         ],
@@ -704,7 +704,7 @@
     },
     {
         "case": "Maya_USD_LT_056",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Point Light",
             "Color - Red"
@@ -716,7 +716,7 @@
     },
     {
         "case": "Maya_USD_LT_057",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Point Light",
             "Color - Yellow"
@@ -728,7 +728,7 @@
     },
     {
         "case": "Maya_USD_LT_058",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Point Light",
             "Intensity 10000"
@@ -740,7 +740,7 @@
     },
     {
         "case": "Maya_USD_LT_059",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Point Light",
             "Intensity 20000"
@@ -752,7 +752,7 @@
     },
     {
         "case": "Maya_USD_LT_060",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Point Light",
             "Intensity 10000",
@@ -765,7 +765,7 @@
     },
     {
         "case": "Maya_USD_LT_061",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Point Light",
             "Intensity 10000",
@@ -778,7 +778,7 @@
     },
     {
         "case": "Maya_USD_LT_062",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Point Light",
             "Temperature 0"
@@ -790,7 +790,7 @@
     },
     {
         "case": "Maya_USD_LT_063",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Point Light",
             "Temperature 5000"
@@ -802,7 +802,7 @@
     },
     {
         "case": "Maya_USD_LT_064",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Point Light",
             "Temperature 10000"

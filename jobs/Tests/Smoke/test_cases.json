@@ -34,7 +34,7 @@
     },
     {
         "case": "MAYA_USD_SM_004",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "MClaren"
         ],
@@ -133,7 +133,7 @@
     },
     {
         "case": "MAYA_USD_SM_013",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Pine"
         ],
@@ -144,7 +144,7 @@
     },
     {
         "case": "MAYA_USD_SM_014",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Denoiser Spheres"
         ],
@@ -156,7 +156,7 @@
     },
     {
         "case": "MAYA_USD_SM_015",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "GeometrySubsetMotionBlur"
         ],
@@ -189,7 +189,7 @@
     },
     {
         "case": "MAYA_USD_SM_018",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Characters"
         ],
